@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>w3ctech</title>
   
-  
+  <subtitle>w3ctech</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
@@ -10,7 +10,7 @@
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>w3ctech</name>
     
   </author>
   
@@ -52,6 +52,28 @@
       
       
         &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>总结js循环遍历</title>
+    <link href="http://yoursite.com/2018/04/03/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/"/>
+    <id>http://yoursite.com/2018/04/03/js循环遍历/</id>
+    <published>2018-04-02T16:00:00.000Z</published>
+    <updated>2018-04-13T12:20:29.982Z</updated>
+    
+    <content type="html"><![CDATA[<p>js 遍历分为遍历数组和遍历对象<br>js遍历对象的方法 有111111111</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;js 遍历分为遍历数组和遍历对象&lt;br&gt;js遍历对象的方法 有111111111&lt;/p&gt;
+
       
     
     </summary>
