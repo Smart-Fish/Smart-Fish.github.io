@@ -8,6 +8,18 @@
       <url>/2018/04/15/canvas-save-restore-drawing-status/</url>
       <content type="html"><![CDATA[<h3 id="画布绘图状态"><a href="#画布绘图状态" class="headerlink" title="画布绘图状态"></a>画布绘图状态</h3><p>描述某一时刻2D渲染上下文外观的整套属性，从简单的颜色值到复杂的变换矩阵及其他特性。</p><h3 id="描述画布绘图状态的全部属性"><a href="#描述画布绘图状态的全部属性" class="headerlink" title="描述画布绘图状态的全部属性"></a>描述画布绘图状态的全部属性</h3><p>变换矩阵、裁剪区域、globalAlpha、globalCompositeOperation、strokeStyle、fillStyle、lineWidth、lineCap、lineJoin、miterLimit、shadowOffsetX、shadowOffsetY、shadowBlur、shadowColor、font、textAlign 和 textBaseline.</p><h3 id="保存绘图状态——save"><a href="#保存绘图状态——save" class="headerlink" title="保存绘图状态——save()"></a>保存绘图状态——save()</h3><p>当你保存绘图状态时，2D渲染上下文会保存一个绘图状态栈，它是一组之前保存的状态，其中最近保存的状态位于顶部——就像一张纸。绘图状态的默认栈是空的，调用save方法，就会有一个新状态被添加到这个栈。多次调用save方法，就可以将多个绘图状态逐一保存到栈中，其中最早的状态在底部。（下面的例子调用了save()方法保存了fillStyle = “red”状态。）</p><h3 id="恢复绘图状态——restore"><a href="#恢复绘图状态——restore" class="headerlink" title="恢复绘图状态——restore()"></a>恢复绘图状态——restore()</h3><p>通过调用restore方法，你能够自动取出最后添加到栈中的绘图状态，并将它应用于2D渲染上下文，用所保存的状态覆盖全部现有的样式。（下面的例子在设置了fillStyle = “blue”之后又调用了restore()方法恢复了之前已有的fillStyle = “red”状态。）</p><iframe height="265" scrolling="no" title="保存和恢复多个绘图状态" src="//codepen.io/w4ctech/embed/zWVmYJ/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zWVmYJ/" target="_blank" rel="noopener">保存和恢复多个绘图状态</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><h3 id="保存和恢复多个绘图状态"><a href="#保存和恢复多个绘图状态" class="headerlink" title="保存和恢复多个绘图状态"></a>保存和恢复多个绘图状态</h3><p>理解新增的项（状态）被添加到栈的顶部，并且它们是从栈顶部取回的。即后进先出的机制，最近保存到栈的绘图状态将是后来第一个恢复的状态。（修改前面的例子，在fillStyle = “blue”之后保存绘图状态，然后调用两次restore()方法，依次恢复了blue和red状态。）</p><iframe height="265" scrolling="no" title="保存和恢复多个绘图状态" src="//codepen.io/w4ctech/embed/mxZzPe/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/mxZzPe/" target="_blank" rel="noopener">保存和恢复多个绘图状态</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe>]]></content>
       
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> canvas </tag>
+            
+        </tags>
       
     </entry>
     
@@ -17,6 +29,18 @@
       <url>/2018/04/13/hello-world/</url>
       <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
       
+      <categories>
+          
+          <category> hello word </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hello word </tag>
+            
+        </tags>
       
     </entry>
     
@@ -26,6 +50,22 @@
       <url>/2018/04/13/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/</url>
       <content type="html"><![CDATA[<h5 id="啥鸡巴都没得，以后再写！"><a href="#啥鸡巴都没得，以后再写！" class="headerlink" title="啥鸡巴都没得，以后再写！"></a>啥鸡巴都没得，以后再写！</h5>]]></content>
       
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> js数组 </tag>
+            
+            <tag> js对象 </tag>
+            
+            <tag> js循环 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -47,16 +87,16 @@
     </entry>
     
     <entry>
-      <title>友链</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>友链</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
