@@ -43,7 +43,7 @@
     
     <title>
         
-            总结js循环遍历 | 
+            Canvas——保存和恢复绘图状态 | 
         
         w3ctech
     </title>
@@ -215,7 +215,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="w3ctech">
-    <meta name="msapplication-starturl" content="http://yoursite.com/2018/04/15/js循环遍历/">
+    <meta name="msapplication-starturl" content="http://yoursite.com/2018/04/15/canvas-save-restore-drawing-status/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="w3ctech">
@@ -234,16 +234,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="http://yoursite.com/2018/04/15/js循环遍历/">
+    <meta property="og:url" content="http://yoursite.com/2018/04/15/canvas-save-restore-drawing-status/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="总结js循环遍历 | w3ctech">
+    <meta property="og:title" content="Canvas——保存和恢复绘图状态 | w3ctech">
     <meta property="og:image" content="/img/favicon.jpg">
     <meta property="og:description" content="风起于青萍之末，浪成于微澜之间。">
     
 
     
         <meta property="article:published_time" content="Sun Apr 15 2018 00:00:00 GMT+0800">
-        <meta property="article:modified_time" content="Sun Apr 15 2018 07:42:29 GMT+0800">
+        <meta property="article:modified_time" content="Sun Apr 15 2018 20:28:37 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -251,7 +251,7 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/2018/04/15/js循环遍历/index.html" />
+        <link rel="canonical" href="http://yoursite.com/2018/04/15/canvas-save-restore-drawing-status/index.html" />
     
 
     <!-- Structured-data for SEO -->
@@ -263,10 +263,10 @@
 {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/2018/04/15/js循环遍历/index.html",
-    "headline": "总结js循环遍历",
+    "mainEntityOfPage": "http://yoursite.com/2018/04/15/canvas-save-restore-drawing-status/index.html",
+    "headline": "Canvas——保存和恢复绘图状态",
     "datePublished": "Sun Apr 15 2018 00:00:00 GMT+0800",
-    "dateModified": "Sun Apr 15 2018 07:42:29 GMT+0800",
+    "dateModified": "Sun Apr 15 2018 20:28:37 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "w3ctech",
@@ -390,7 +390,7 @@
         
     
             <p class="article-headline-p">
-                总结js循环遍历
+                Canvas——保存和恢复绘图状态
             </p>
         </div>
 
@@ -441,7 +441,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=总结js循环遍历&url=http://yoursite.com/2018/04/15/js循环遍历/index.html&pic=http://yoursite.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Canvas——保存和恢复绘图状态&url=http://yoursite.com/2018/04/15/canvas-save-restore-drawing-status/index.html&pic=http://yoursite.com/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -453,7 +453,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/04/15/js循环遍历/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/2018/04/15/canvas-save-restore-drawing-status/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -462,7 +462,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2018/04/15/js循环遍历/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/2018/04/15/canvas-save-restore-drawing-status/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -474,7 +474,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=w3ctech&title=总结js循环遍历&summary=风起于青萍之末，浪成于微澜之间。&pics=http://yoursite.com/img/favicon.jpg&url=http://yoursite.com/2018/04/15/js循环遍历/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=w3ctech&title=Canvas——保存和恢复绘图状态&summary=风起于青萍之末，浪成于微澜之间。&pics=http://yoursite.com/img/favicon.jpg&url=http://yoursite.com/2018/04/15/canvas-save-restore-drawing-status/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -493,9 +493,18 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <pre><code>    js 遍历分为遍历数组(array)和遍历对象(object)
-    js遍历对象的方法 有11111111111111111111111111111111111111111111
-</code></pre>
+        <p>###画布绘图状态</p>
+<p>描述某一时刻2D渲染上下文外观的整套属性，从简单的颜色值到复杂的变换矩阵及其他特性。</p>
+<p>描述画布绘图状态的全部属性</p>
+<p>变换矩阵、裁剪区域、globalAlpha、globalCompositeOperation、strokeStyle、fillStyle、lineWidth、lineCap、lineJoin、miterLimit、shadowOffsetX、shadowOffsetY、shadowBlur、shadowColor、font、textAlign 和 textBaseline.</p>
+<p>保存绘图状态——save()</p>
+<p>当你保存绘图状态时，2D渲染上下文会保存一个绘图状态栈，它是一组之前保存的状态，其中最近保存的状态位于顶部——就像一张纸。绘图状态的默认栈是空的，调用save方法，就会有一个新状态被添加到这个栈。多次调用save方法，就可以将多个绘图状态逐一保存到栈中，其中最早的状态在底部。（下面的例子调用了save()方法保存了fillStyle = “red”状态。）</p>
+<p>恢复绘图状态——restore()</p>
+<p>通过调用restore方法，你能够自动取出最后添加到栈中的绘图状态，并将它应用于2D渲染上下文，用所保存的状态覆盖全部现有的样式。（下面的例子在设置了fillStyle = “blue”之后又调用了restore()方法恢复了之前已有的fillStyle = “red”状态。）</p>
+
+<iframe height="265" scrolling="no" title="保存和恢复多个绘图状态" src="//codepen.io/w4ctech/embed/zWVmYJ/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zWVmYJ/" target="_blank" rel="noopener">保存和恢复多个绘图状态</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
+</iframe>
+
         
     
 
@@ -615,7 +624,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">3</span></a>
+                <a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">4</span></a>
             </ul>
         </li>
         
@@ -661,7 +670,7 @@
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">3</span>
+                <span class="sidebar-badge">4</span>
             </a>
         </li>
         

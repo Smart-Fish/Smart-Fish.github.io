@@ -3,10 +3,10 @@
   
     
     <entry>
-      <title>总结js循环遍历</title>
-      <link href="/2018/04/15/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/"/>
-      <url>/2018/04/15/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/</url>
-      <content type="html"><![CDATA[<pre><code>    js 遍历分为遍历数组(array)和遍历对象(object)    js遍历对象的方法 有11111111111111111111111111111111111111111111</code></pre>]]></content>
+      <title>Canvas——保存和恢复绘图状态</title>
+      <link href="/2018/04/15/canvas-save-restore-drawing-status/"/>
+      <url>/2018/04/15/canvas-save-restore-drawing-status/</url>
+      <content type="html"><![CDATA[<p>###画布绘图状态</p><p>描述某一时刻2D渲染上下文外观的整套属性，从简单的颜色值到复杂的变换矩阵及其他特性。</p><p>描述画布绘图状态的全部属性</p><p>变换矩阵、裁剪区域、globalAlpha、globalCompositeOperation、strokeStyle、fillStyle、lineWidth、lineCap、lineJoin、miterLimit、shadowOffsetX、shadowOffsetY、shadowBlur、shadowColor、font、textAlign 和 textBaseline.</p><p>保存绘图状态——save()</p><p>当你保存绘图状态时，2D渲染上下文会保存一个绘图状态栈，它是一组之前保存的状态，其中最近保存的状态位于顶部——就像一张纸。绘图状态的默认栈是空的，调用save方法，就会有一个新状态被添加到这个栈。多次调用save方法，就可以将多个绘图状态逐一保存到栈中，其中最早的状态在底部。（下面的例子调用了save()方法保存了fillStyle = “red”状态。）</p><p>恢复绘图状态——restore()</p><p>通过调用restore方法，你能够自动取出最后添加到栈中的绘图状态，并将它应用于2D渲染上下文，用所保存的状态覆盖全部现有的样式。（下面的例子在设置了fillStyle = “blue”之后又调用了restore()方法恢复了之前已有的fillStyle = “red”状态。）</p><iframe height="265" scrolling="no" title="保存和恢复多个绘图状态" src="//codepen.io/w4ctech/embed/zWVmYJ/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zWVmYJ/" target="_blank" rel="noopener">保存和恢复多个绘图状态</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe>]]></content>
       
       
     </entry>
@@ -29,6 +29,15 @@
       
     </entry>
     
+    <entry>
+      <title>总结js循环遍历</title>
+      <link href="/2018/04/03/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/"/>
+      <url>/2018/04/03/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/</url>
+      <content type="html"><![CDATA[<pre><code>js 遍历分为遍历数组(array)和遍历对象(object)js遍历对象的方法 有11111111111111111111111111111111111111111111</code></pre>]]></content>
+      
+      
+    </entry>
+    
   
   
     
@@ -47,16 +56,16 @@
     </entry>
     
     <entry>
-      <title>友链</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>友链</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
