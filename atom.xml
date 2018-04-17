@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>w3ctech</title>
+  <title>w4ctech</title>
   
-  <subtitle>w3ctech</subtitle>
+  <subtitle>w4ctech</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://w3ctech.coding.me/"/>
@@ -10,7 +10,7 @@
   <id>https://w3ctech.coding.me/</id>
   
   <author>
-    <name>w3ctech</name>
+    <name>w4ctech</name>
     
   </author>
   
