@@ -5,9 +5,9 @@
   <subtitle>w4ctech</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://w3ctech.coding.me/"/>
-  <updated>2018-04-15T15:01:58.679Z</updated>
-  <id>https://w3ctech.coding.me/</id>
+  <link href="https://collection-folder.coding.me/"/>
+  <updated>2018-04-15T15:03:17.527Z</updated>
+  <id>https://collection-folder.coding.me/</id>
   
   <author>
     <name>w4ctech</name>
@@ -17,9 +17,64 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://collection-folder.coding.me/2018/04/18/hello-world/"/>
+    <id>https://collection-folder.coding.me/2018/04/18/hello-world/</id>
+    <published>2018-04-18T01:34:11.780Z</published>
+    <updated>2018-04-15T15:03:17.527Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+      <category term="hello word" scheme="https://collection-folder.coding.me/categories/hello-word/"/>
+    
+    
+      <category term="hello word" scheme="https://collection-folder.coding.me/tags/hello-word/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>总结js循环遍历</title>
+    <link href="https://collection-folder.coding.me/2018/04/18/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/"/>
+    <id>https://collection-folder.coding.me/2018/04/18/js循环遍历/</id>
+    <published>2018-04-17T16:00:00.000Z</published>
+    <updated>2018-04-18T08:22:59.230Z</updated>
+    
+    <content type="html"><![CDATA[<p>1 <code>for</code> 循环<br>语法：for( 初始化; 循环执行条件; 每遍历一个元素后做的事情;){}<br><iframe height="265" scrolling="no" title="for循环" src="//codepen.io/w4ctech/embed/zjOVxy/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zjOVxy/" target="_blank" rel="noopener">for循环</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><br>for循环只能遍历数组, 不能遍历对象.</p><p>2 <code>do while</code> 循环<br>语法：do{…}while(true)<br></p><p data-height="265" data-theme-id="0" data-slug-hash="WJeqvZ" data-default-tab="js,result" data-user="w4ctech" data-embed-version="2" data-pen-title="do...while" class="codepen">See the Pen <a href="https://codepen.io/w4ctech/pen/WJeqvZ/" target="_blank" rel="noopener">do...while</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p><script async src="https://static.codepen.io/assets/embed/ei.js"></script><br><code>do while</code> 循环只保留对循环条件的判断，所以需要在循环内部使用<code>break</code>终止循环，如果不使用<code>brack</code>终止，则会造成死循环；如果使用<code>continue</code>跳出本次循环，为了保证循环能够自动进入到下一次遍历。需要将<code>i++</code>遍历语句放在<code>while</code>头部。否则进入死循环<br><a href="https://simimg.com/i/lz67N" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/18/lz67N.md.png" alt="死循环"></a><p></p><p>3 <code>forEach</code> 循环<br>语法：<code>array.forEach(functtion(item,index){})</code>, <code>item</code>表示值，<code>index</code>表示索引。<br><iframe height="265" scrolling="no" title="forEach循环" src="//codepen.io/w4ctech/embed/BxBgoR/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/BxBgoR/" target="_blank" rel="noopener">forEach循环</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe></p><p><code>forEach</code>无法在IE中使用；<code>forEach</code>无法使用<code>break</code>，<code>continue</code>跳出循环，使用<code>return</code>时，效果和在<code>for</code>循环中使用continue一致</p><p>4 <code>for in</code> 循环<br>语法 <code>for (var item in array){}</code>, item 可以是数组元素，也可以是对象的属性，<br><iframe height="265" scrolling="no" title="for in 循环 " src="//codepen.io/w4ctech/embed/zjOVve/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zjOVve/" target="_blank" rel="noopener">for in 循环 </a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1 &lt;code&gt;for&lt;/code&gt; 循环&lt;br&gt;语法：for( 初始化; 循环执行条件; 每遍历一个元素后做的事情;){}&lt;br&gt;
+&lt;iframe height=&quot;265&quot; scrolling=&quot;no&quot; title=&quot;for循环&quot; src=&quot;//codepen.io/w4
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://collection-folder.coding.me/categories/web/"/>
+    
+    
+      <category term="js数组" scheme="https://collection-folder.coding.me/tags/js%E6%95%B0%E7%BB%84/"/>
+    
+      <category term="js对象" scheme="https://collection-folder.coding.me/tags/js%E5%AF%B9%E8%B1%A1/"/>
+    
+      <category term="js循环" scheme="https://collection-folder.coding.me/tags/js%E5%BE%AA%E7%8E%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Canvas——保存和恢复绘图状态</title>
-    <link href="https://w3ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/"/>
-    <id>https://w3ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/</id>
+    <link href="https://collection-folder.coding.me/2018/04/15/canvas-save-restore-drawing-status/"/>
+    <id>https://collection-folder.coding.me/2018/04/15/canvas-save-restore-drawing-status/</id>
     <published>2018-04-14T16:00:00.000Z</published>
     <updated>2018-04-15T15:01:58.679Z</updated>
     
@@ -35,64 +90,10 @@
     
     </summary>
     
-      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
+      <category term="web" scheme="https://collection-folder.coding.me/categories/web/"/>
     
     
-      <category term="canvas" scheme="https://w3ctech.coding.me/tags/canvas/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://w3ctech.coding.me/2018/04/13/hello-world/"/>
-    <id>https://w3ctech.coding.me/2018/04/13/hello-world/</id>
-    <published>2018-04-13T10:05:11.136Z</published>
-    <updated>2018-04-15T15:03:17.527Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-      <category term="hello word" scheme="https://w3ctech.coding.me/categories/hello-word/"/>
-    
-    
-      <category term="hello word" scheme="https://w3ctech.coding.me/tags/hello-word/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>总结js循环遍历</title>
-    <link href="https://w3ctech.coding.me/2018/04/13/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/"/>
-    <id>https://w3ctech.coding.me/2018/04/13/js循环遍历/</id>
-    <published>2018-04-12T16:00:00.000Z</published>
-    <updated>2018-04-15T15:03:01.778Z</updated>
-    
-    <content type="html"><![CDATA[<h5 id="啥鸡巴都没得，以后再写！"><a href="#啥鸡巴都没得，以后再写！" class="headerlink" title="啥鸡巴都没得，以后再写！"></a>啥鸡巴都没得，以后再写！</h5>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h5 id=&quot;啥鸡巴都没得，以后再写！&quot;&gt;&lt;a href=&quot;#啥鸡巴都没得，以后再写！&quot; class=&quot;headerlink&quot; title=&quot;啥鸡巴都没得，以后再写！&quot;&gt;&lt;/a&gt;啥鸡巴都没得，以后再写！&lt;/h5&gt;
-      
-    
-    </summary>
-    
-      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
-    
-    
-      <category term="js数组" scheme="https://w3ctech.coding.me/tags/js%E6%95%B0%E7%BB%84/"/>
-    
-      <category term="js对象" scheme="https://w3ctech.coding.me/tags/js%E5%AF%B9%E8%B1%A1/"/>
-    
-      <category term="js循环" scheme="https://w3ctech.coding.me/tags/js%E5%BE%AA%E7%8E%AF/"/>
+      <category term="canvas" scheme="https://collection-folder.coding.me/tags/canvas/"/>
     
   </entry>
   
