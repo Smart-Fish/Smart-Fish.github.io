@@ -245,7 +245,7 @@
 
     
         <meta property="article:published_time" content="Wed Apr 18 2018 00:00:00 GMT+0800">
-        <meta property="article:modified_time" content="Thu Apr 19 2018 00:27:48 GMT+0800">
+        <meta property="article:modified_time" content="Thu Apr 19 2018 00:45:02 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -268,7 +268,7 @@
     "mainEntityOfPage": "https://w4ctech.coding.me/2018/04/18/js循环遍历/index.html",
     "headline": "总结js循环遍历",
     "datePublished": "Wed Apr 18 2018 00:00:00 GMT+0800",
-    "dateModified": "Thu Apr 19 2018 00:27:48 GMT+0800",
+    "dateModified": "Thu Apr 19 2018 00:45:02 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "w4ctech",
@@ -554,8 +554,19 @@
 <p>Array.prototype扩展可以让IE6-IE8浏览器也支持map方法：<br>
 <iframe height="265" scrolling="no" title="Array.prototype扩展可以让IE6-IE8浏览器也支持map方法" src="//codepen.io/w4ctech/embed/vjYjZW/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/vjYjZW/" target="_blank" rel="noopener">Array.prototype扩展可以让IE6-IE8浏览器也支持map方法</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
 </iframe>
-</p>
-<p><a href="https://juejin.im/post/5a70280d6fb9a01cc026884b" target="_blank" rel="noopener">map()和filter()详解</a></p>
+<br><a href="https://juejin.im/post/5a70280d6fb9a01cc026884b" target="_blank" rel="noopener">map()和filter()详解</a></p>
+<p>8 <code>every</code>循环<br>语法：<code>array.every(function(item, index, array))</code> <code>item</code> 当前元素的值，<code>index</code> 当前元素索引值，<code>array</code>  当前元素属于的数组对象<br>
+<iframe height="265" scrolling="no" title="every方法" src="//codepen.io/w4ctech/embed/XqWBJP/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/XqWBJP/" target="_blank" rel="noopener">every方法</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
+</iframe>
+<br><code>every()</code> 不会对空数组进行检测;<code>every()</code> 不会改变原始数组<br><code>arr.every(callback[, thisArg]) every</code>方法用于检验数组中的每一项是否符合某个条件, 若符合则放回<code>true</code>, 反之则返回<code>false</code>.</p>
+<p><code>arr.every(function(item,index,arr){console.info(item);return true});</code></p>
+<ol>
+<li><code>every</code>遇到<code>return</code>则返回,不再往下执行</li>
+</ol>
+<p><code>arr.every(function(item,index,arr){console.info(item););</code></p>
+<ol start="2">
+<li>没有<code>return</code>时,只执行一次则默认返回<code>false</code></li>
+</ol>
 
         
     
