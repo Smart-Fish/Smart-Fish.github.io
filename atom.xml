@@ -5,9 +5,9 @@
   <subtitle>w4ctech</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://w4ctech.coding.me/"/>
+  <link href="https://w3ctech.coding.me/"/>
   <updated>2018-04-15T15:03:17.527Z</updated>
-  <id>https://w4ctech.coding.me/</id>
+  <id>https://w3ctech.coding.me/</id>
   
   <author>
     <name>w4ctech</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://w4ctech.coding.me/2018/04/18/hello-world/"/>
-    <id>https://w4ctech.coding.me/2018/04/18/hello-world/</id>
+    <link href="https://w3ctech.coding.me/2018/04/18/hello-world/"/>
+    <id>https://w3ctech.coding.me/2018/04/18/hello-world/</id>
     <published>2018-04-18T01:34:11.780Z</published>
     <updated>2018-04-15T15:03:17.527Z</updated>
     
@@ -34,21 +34,21 @@
     
     </summary>
     
-      <category term="hello word" scheme="https://w4ctech.coding.me/categories/hello-word/"/>
+      <category term="hello word" scheme="https://w3ctech.coding.me/categories/hello-word/"/>
     
     
-      <category term="hello word" scheme="https://w4ctech.coding.me/tags/hello-word/"/>
+      <category term="hello word" scheme="https://w3ctech.coding.me/tags/hello-word/"/>
     
   </entry>
   
   <entry>
     <title>总结js循环遍历</title>
-    <link href="https://w4ctech.coding.me/2018/04/18/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/"/>
-    <id>https://w4ctech.coding.me/2018/04/18/js循环遍历/</id>
+    <link href="https://w3ctech.coding.me/2018/04/18/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/"/>
+    <id>https://w3ctech.coding.me/2018/04/18/js循环遍历/</id>
     <published>2018-04-17T16:00:00.000Z</published>
-    <updated>2018-04-18T15:08:06.858Z</updated>
+    <updated>2018-04-18T15:32:32.713Z</updated>
     
-    <content type="html"><![CDATA[<p>1 <code>for</code> 循环<br>语法：<code>for( 初始化; 循环执行条件; 每遍历一个元素后做的事情;){}</code><br><iframe height="300" scrolling="no" title="for循环" src="//codepen.io/w4ctech/embed/zjOVxy/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zjOVxy/" target="_blank" rel="noopener">for循环</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><br><code>for</code>循环只能遍历数组, 不能遍历对象.</p><p>2 <code>do while</code> 循环<br>语法：<code>do{...}while(true)</code><br></p><p data-height="265" data-theme-id="0" data-slug-hash="WJeqvZ" data-default-tab="js,result" data-user="w4ctech" data-embed-version="2" data-pen-title="do...while" class="codepen">See the Pen <a href="https://codepen.io/w4ctech/pen/WJeqvZ/" target="_blank" rel="noopener">do...while</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p><script async src="https://static.codepen.io/assets/embed/ei.js"></script><br><code>do while</code> 循环只保留对循环条件的判断，所以需要在循环内部使用<code>break</code>终止循环，如果不使用<code>break</code>终止，则会造成死循环；如果使用<code>continue</code>跳出本次循环，为了保证循环能够自动进入到下一次遍历。需要将<code>i++</code>遍历语句放在<code>while</code>头部。否则进入死循环<br><a href="https://simimg.com/i/lz67N" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/18/lz67N.md.png" alt="死循环"></a><p></p><p>3 <code>forEach</code> 循环<br>语法：<code>array.forEach(functtion(item,index){})</code>, <code>item</code>表示值，<code>index</code>表示索引。<br><iframe height="265" scrolling="no" title="forEach循环" src="//codepen.io/w4ctech/embed/BxBgoR/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/BxBgoR/" target="_blank" rel="noopener">forEach循环</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><br><code>forEach</code>无法在IE中使用；<code>forEach</code>无法使用<code>break</code>，<code>continue</code>跳出循环，使用<code>return</code>时，效果和在<code>for</code>循环中使用<code>continue</code>一致</p><p>4 <code>for in</code> 循环<br>语法 <code>for (var item in array){}</code>, <code>item</code> 可以是数组元素，也可以是对象的属性。<br><iframe height="300" scrolling="no" title="for in 循环 " src="//codepen.io/w4ctech/embed/zjOVve/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zjOVve/" target="_blank" rel="noopener">for in 循环 </a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe></p><p>5 <code>$.each</code> 循环<br>语法 <code>$.each(array|object,function(index,element))</code>,<code>index</code>表示当前索引值，<code>element</code>当前的元素。<br><iframe height="300" scrolling="no" title="$.each循环" src="//codepen.io/w4ctech/embed/KRPjVo/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/KRPjVo/" target="_blank" rel="noopener">$.each循环</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><br><code>this</code>指向当前属性的值。</p><p>6 <code>$(selecter).each</code> 循环<br>语法：<code>$(select|array|object).each(function(index,element))</code> ，可以遍历数组和对象。<br><iframe height="265" scrolling="no" title="$(selecter).each" src="//codepen.io/w4ctech/embed/pVzXRZ/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/pVzXRZ/" target="_blank" rel="noopener">$(selecter).each</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><br><code>this</code>表示当前遍历的值。不能调用<code>jQuery</code>方法, 如需调用<code>jquery</code>方法需要用<code>$</code>符号包裹.<code>$(this)</code></p><p>7 <code>map</code> 循环<br>语法：<code>array.map(function())</code><br><code>map()</code>方法返回一个由原数组中的每个元素调用一个指定方法后的返回值组成的新数组。<code>function</code>类型指定的处理函数。<br><iframe height="265" scrolling="no" title="map" src="//codepen.io/w4ctech/embed/jxOmwM/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/jxOmwM/" target="_blank" rel="noopener">map</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe></p>]]></content>
+    <content type="html"><![CDATA[<p>1 <code>for</code> 循环<br>语法：<code>for( 初始化; 循环执行条件; 每遍历一个元素后做的事情;){}</code><br><iframe height="300" scrolling="no" title="for循环" src="//codepen.io/w4ctech/embed/zjOVxy/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zjOVxy/" target="_blank" rel="noopener">for循环</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><br><code>for</code>循环只能遍历数组, 不能遍历对象.</p><p>2 <code>do while</code> 循环<br>语法：<code>do{...}while(true)</code><br></p><p data-height="265" data-theme-id="0" data-slug-hash="WJeqvZ" data-default-tab="js,result" data-user="w4ctech" data-embed-version="2" data-pen-title="do...while" class="codepen">See the Pen <a href="https://codepen.io/w4ctech/pen/WJeqvZ/" target="_blank" rel="noopener">do...while</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</p><script async src="https://static.codepen.io/assets/embed/ei.js"></script><br><code>do while</code> 循环只保留对循环条件的判断，所以需要在循环内部使用<code>break</code>终止循环，如果不使用<code>break</code>终止，则会造成死循环；如果使用<code>continue</code>跳出本次循环，为了保证循环能够自动进入到下一次遍历。需要将<code>i++</code>遍历语句放在<code>while</code>头部。否则进入死循环<br><a href="https://simimg.com/i/lz67N" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/18/lz67N.md.png" alt="死循环"></a><p></p><p>3 <code>forEach</code> 循环<br>语法：<code>array.forEach(functtion(item,index){})</code>, <code>item</code>表示值，<code>index</code>表示索引。<br><iframe height="265" scrolling="no" title="forEach循环" src="//codepen.io/w4ctech/embed/BxBgoR/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/BxBgoR/" target="_blank" rel="noopener">forEach循环</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><br><code>forEach</code>无法在IE中使用；<code>forEach</code>无法使用<code>break</code>，<code>continue</code>跳出循环，使用<code>return</code>时，效果和在<code>for</code>循环中使用<code>continue</code>一致</p><p>4 <code>for in</code> 循环<br>语法 <code>for (var item in array){}</code>, <code>item</code> 可以是数组元素，也可以是对象的属性。<br><iframe height="300" scrolling="no" title="for in 循环 " src="//codepen.io/w4ctech/embed/zjOVve/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zjOVve/" target="_blank" rel="noopener">for in 循环 </a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe></p><p>5 <code>$.each</code> 循环<br>语法 <code>$.each(array|object,function(index,element))</code>,<code>index</code>表示当前索引值，<code>element</code>当前的元素。<br><iframe height="300" scrolling="no" title="$.each循环" src="//codepen.io/w4ctech/embed/KRPjVo/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/KRPjVo/" target="_blank" rel="noopener">$.each循环</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><br><code>this</code>指向当前属性的值。</p><p>6 <code>$(selecter).each</code> 循环<br>语法：<code>$(select|array|object).each(function(index,element))</code> ，可以遍历数组和对象。<br><iframe height="265" scrolling="no" title="$(selecter).each" src="//codepen.io/w4ctech/embed/pVzXRZ/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/pVzXRZ/" target="_blank" rel="noopener">$(selecter).each</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><br><code>this</code>表示当前遍历的值。不能调用<code>jQuery</code>方法, 如需调用<code>jquery</code>方法需要用<code>$</code>符号包裹.<code>$(this)</code></p><p>7 <code>map</code> 循环<br>语法：<code>array.map(function())</code><br><code>map()</code>方法返回一个由原数组中的每个元素调用一个指定方法后的返回值组成的新数组。<code>function</code>类型指定的处理函数。<br><iframe height="265" scrolling="no" title="map" src="//codepen.io/w4ctech/embed/jxOmwM/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/jxOmwM/" target="_blank" rel="noopener">map</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe></p><p>原数组被“映射”成对应新数组：<br><iframe height="265" scrolling="no" title="理解map方法" src="//codepen.io/w4ctech/embed/wjvmRy/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/wjvmRy/" target="_blank" rel="noopener">理解map方法</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe></p><p>map获取对象数组中的特定属性值：<br></p><p><iframe height="265" scrolling="no" title="map获取对象数组中的特定属性值" src="//codepen.io/w4ctech/embed/LmYmbx/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/LmYmbx/" target="_blank" rel="noopener">map获取对象数组中的特定属性值</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.<br></iframe><br>{% raw %}</p>]]></content>
     
     <summary type="html">
     
@@ -60,21 +60,21 @@
     
     </summary>
     
-      <category term="web" scheme="https://w4ctech.coding.me/categories/web/"/>
+      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
     
     
-      <category term="js数组" scheme="https://w4ctech.coding.me/tags/js%E6%95%B0%E7%BB%84/"/>
+      <category term="js数组" scheme="https://w3ctech.coding.me/tags/js%E6%95%B0%E7%BB%84/"/>
     
-      <category term="js对象" scheme="https://w4ctech.coding.me/tags/js%E5%AF%B9%E8%B1%A1/"/>
+      <category term="js对象" scheme="https://w3ctech.coding.me/tags/js%E5%AF%B9%E8%B1%A1/"/>
     
-      <category term="js循环" scheme="https://w4ctech.coding.me/tags/js%E5%BE%AA%E7%8E%AF/"/>
+      <category term="js循环" scheme="https://w3ctech.coding.me/tags/js%E5%BE%AA%E7%8E%AF/"/>
     
   </entry>
   
   <entry>
     <title>Canvas——保存和恢复绘图状态</title>
-    <link href="https://w4ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/"/>
-    <id>https://w4ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/</id>
+    <link href="https://w3ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/"/>
+    <id>https://w3ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/</id>
     <published>2018-04-14T16:00:00.000Z</published>
     <updated>2018-04-15T15:01:58.679Z</updated>
     
@@ -90,10 +90,10 @@
     
     </summary>
     
-      <category term="web" scheme="https://w4ctech.coding.me/categories/web/"/>
+      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
     
     
-      <category term="canvas" scheme="https://w4ctech.coding.me/tags/canvas/"/>
+      <category term="canvas" scheme="https://w3ctech.coding.me/tags/canvas/"/>
     
   </entry>
   
