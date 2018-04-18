@@ -470,15 +470,15 @@
     var guest_info = 'nick,mail,link'.split(',').filter(function(item){
         return GUEST_INFO.indexOf(item) > -1
     });
-    var notify = 'false' == true;
-    var verify = 'false' == true;
+    var notify = 'true' == true;
+    var verify = 'true' == true;
     new Valine({
         el: '.vcomment',
         notify: notify,
         verify: verify,
         appId: "EAayCd8ouHDM5Iqms3hKlGsx-gzGzoHsz",
         appKey: "S1MMPO5zkL4fuPYHuUWaud7O",
-        placeholder: "Just go go",
+        placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!",
         pageSize:'10',
         avatar:'identicon',
         lang:'zh-cn'
