@@ -912,15 +912,19 @@ It will not impact the appearance and can give developers a lot of support :)
         this.hour = date.getHours() < 10 ? "0" + date.getHours() : date.getHours();
         this.minute = date.getMinutes() < 10 ? "0" + date.getMinutes() : date.getMinutes();
         this.second = date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
-        var currentTime1 =  this.year + "年" + this.month + "月" + this.date + "日" + this.hour + "时" + this.minute + "分" ;
 		var currentTime =  this.year + "年" + this.month + "月" + this.date + "日" + this.hour + "时" + this.minute + "分" + this.second + "秒" + this.day;
-		}w4ctechTime()
+		w4ctech.innerHTML= currentTime
+		}
+        w4ctechTime()
 </script>
 <style>
 	footer{
 		text-align: center;
 	    font-size: 1rem;
 	    line-height: 1.67;
+	}
+	#w4ctech{
+		/*color: yellow ;*/
 	}
 </style>
 
