@@ -777,45 +777,13 @@ It will not impact the appearance and can give developers a lot of support :)
         this.second = date.getSeconds() < 10 ? "0" + date.getSeconds() : date.getSeconds();
         var currentTime1 =  this.year + "年" + this.month + "月" + this.date + "日" + this.hour + "时" + this.minute + "分" ;
 		var currentTime =  this.year + "年" + this.month + "月" + this.date + "日" + this.hour + "时" + this.minute + "分" + this.second + "秒" + this.day;
-		w4ctech.innerHTML= currentTime
-		console.log(currentTime+"每一个不曾起舞的日子，都是对生命的辜负!");
 		}w4ctechTime()
-		
-//		function siteTime(){  
-//		window.setTimeout("siteTime()", 1000);  
-//		var seconds = 1000  
-//		var minutes = seconds * 60  
-//		var hours = minutes * 60  
-//		var days = hours * 24  
-//		var years = days * 365  
-//		var today = new Date()  
-//		var todayYear = today.getFullYear()  
-//		var todayMonth = today.getMonth()  
-//		var todayDate = today.getDate()  
-//		var todayHour = today.getHours()  
-//		var todayMinute = today.getMinutes()  
-//		var todaySecond = today.getSeconds()  
-//		 
-//		var t1 = Date.UTC(2018,4,15,09,00,00)  
-//		var t2 = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond)  
-//		var diff = t2-t1  
-//		var diffYears = Math.floor(diff/years)  
-//		var diffDays = Math.floor((diff/days)-diffYears*365)  
-//		var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours)  
-//		var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes)  
-//		var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds)  
-//		document.getElementsById("siteTime").innerHTML=+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒"  
-//		}  
-//		siteTime()  
 </script>
 <style>
 	footer{
 		text-align: center;
 	    font-size: 1rem;
 	    line-height: 1.67;
-	}
-	#w4ctech{
-		/*color: yellow ;*/
 	}
 </style>
 
