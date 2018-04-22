@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://w4ctech.coding.me/about/index.html</loc>
+    
+    <lastmod>2018-04-22T06:44:50.692Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://w4ctech.coding.me/2018/04/15/hello-world/</loc>
     
     <lastmod>2018-04-18T22:51:17.120Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://w4ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/</loc>
     
     <lastmod>2018-04-15T15:01:58.679Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://w4ctech.coding.me/about/index.html</loc>
-    
-    <lastmod>2018-04-15T13:55:15.949Z</lastmod>
     
   </url>
   
