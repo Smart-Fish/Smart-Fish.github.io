@@ -6,7 +6,7 @@
       <title>vue学习笔记</title>
       <link href="/2018/04/23/vue-notes/"/>
       <url>/2018/04/23/vue-notes/</url>
-      <content type="html"><![CDATA[<p>1111111</p>]]></content>
+      <content type="html"><![CDATA[<p>vue基础指令：</p><p>vue的指令是将js的vue实例绑定至html元素，通过vue实例中的data内的属性或者methods内的方法，对所绑定的子元素进行操作。</p><p>1 插值表达式<br><iframe height="265" scrolling="no" title="vue.js" src="//codepen.io/w4ctech/embed/jxWBbw/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/jxWBbw/" target="_blank" rel="noopener">vue.js</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe></p><p>2 v-model</p><iframe height="265" scrolling="no" title="v-model" src="//codepen.io/w4ctech/embed/pVgwXP/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/pVgwXP/" target="_blank" rel="noopener">v-model</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe>]]></content>
       
       <categories>
           
@@ -97,7 +97,7 @@
       <title></title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
-      <content type="html"><![CDATA[<pre><code>    &lt;--待他日能够成为一名真正的前端工程师的时候再写吧--&gt;</code></pre>]]></content>
+      <content type="html"><![CDATA[<pre><code>    &lt;!-- &lt;p&gt;待他日能够成为一名真正的前端工程师的时候再写吧&lt;/p&gt; --&gt;</code></pre>]]></content>
     </entry>
     
     <entry>

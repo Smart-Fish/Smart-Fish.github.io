@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://w4ctech.coding.me/"/>
-  <updated>2018-04-23T22:59:29.040Z</updated>
+  <updated>2018-04-23T23:06:12.073Z</updated>
   <id>https://w4ctech.coding.me/</id>
   
   <author>
@@ -21,16 +21,18 @@
     <link href="https://w4ctech.coding.me/2018/04/23/vue-notes/"/>
     <id>https://w4ctech.coding.me/2018/04/23/vue-notes/</id>
     <published>2018-04-22T16:00:00.000Z</published>
-    <updated>2018-04-23T22:59:29.040Z</updated>
+    <updated>2018-04-23T23:06:12.073Z</updated>
     
-    <content type="html"><![CDATA[<p>1111111</p>]]></content>
+    <content type="html"><![CDATA[<p>vue基础指令：</p><p>vue的指令是将js的vue实例绑定至html元素，通过vue实例中的data内的属性或者methods内的方法，对所绑定的子元素进行操作。</p><p>1 插值表达式<br><iframe height="265" scrolling="no" title="vue.js" src="//codepen.io/w4ctech/embed/jxWBbw/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/jxWBbw/" target="_blank" rel="noopener">vue.js</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe></p><p>2 v-model</p><iframe height="265" scrolling="no" title="v-model" src="//codepen.io/w4ctech/embed/pVgwXP/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/pVgwXP/" target="_blank" rel="noopener">v-model</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;1111111&lt;/p&gt;
-
+        &lt;p&gt;vue基础指令：&lt;/p&gt;
+&lt;p&gt;vue的指令是将js的vue实例绑定至html元素，通过vue实例中的data内的属性或者methods内的方法，对所绑定的子元素进行操作。&lt;/p&gt;
+&lt;p&gt;1 插值表达式&lt;br&gt;
+&lt;iframe height=&quot;265&quot; scrolling=
       
     
     </summary>
