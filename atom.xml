@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://w4ctech.coding.me/"/>
-  <updated>2018-04-18T16:45:02.974Z</updated>
+  <updated>2018-04-23T22:59:29.040Z</updated>
   <id>https://w4ctech.coding.me/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue学习笔记</title>
+    <link href="https://w4ctech.coding.me/2018/04/23/vue-notes/"/>
+    <id>https://w4ctech.coding.me/2018/04/23/vue-notes/</id>
+    <published>2018-04-22T16:00:00.000Z</published>
+    <updated>2018-04-23T22:59:29.040Z</updated>
+    
+    <content type="html"><![CDATA[<p>1111111</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1111111&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="web" scheme="https://w4ctech.coding.me/categories/web/"/>
+    
+    
+      <category term="vue" scheme="https://w4ctech.coding.me/tags/vue/"/>
+    
+  </entry>
   
   <entry>
     <title>总结js循环遍历</title>
