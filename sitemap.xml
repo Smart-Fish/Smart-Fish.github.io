@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://w4ctech.coding.me/2018/04/18/js-loop-traversal/</loc>
+    
+    <lastmod>2018-04-24T23:03:42.048Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://w4ctech.coding.me/2018/04/24/vue-package/</loc>
+    
+    <lastmod>2018-04-24T23:03:05.597Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://w4ctech.coding.me/2018/04/26/vue-life-cycle/</loc>
+    
+    <lastmod>2018-04-24T23:02:11.561Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/</loc>
     
     <lastmod>2018-04-24T22:44:06.668Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://w4ctech.coding.me/2018/04/24/vue%E7%BB%84%E4%BB%B6/</loc>
-    
-    <lastmod>2018-04-24T22:43:58.914Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://w4ctech.coding.me/2018/04/28/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/</loc>
-    
-    <lastmod>2018-04-24T22:43:39.948Z</lastmod>
     
   </url>
   
@@ -47,13 +54,6 @@
     <loc>https://w4ctech.coding.me/2018/04/15/hello-world/</loc>
     
     <lastmod>2018-04-18T22:51:17.120Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://w4ctech.coding.me/2018/04/18/js%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86/</loc>
-    
-    <lastmod>2018-04-18T16:45:02.974Z</lastmod>
     
   </url>
   
