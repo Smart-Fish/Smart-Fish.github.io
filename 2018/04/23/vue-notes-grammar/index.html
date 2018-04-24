@@ -56,7 +56,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="w4ctech-风起于青萍之末，浪成于微澜之间。">
-    <meta name="keywords" content="w4ctech-风起于青萍之末，浪成于微澜之间。,vue.js基本指令">
+    <meta name="keywords" content="w4ctech-风起于青萍之末，浪成于微澜之间。,vue.js基本指令,vue">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -241,11 +241,11 @@
     <meta property="og:title" content="vue学习笔记-vue基本指令 | w4ctech">
     <meta property="og:image" content="/img/favicon.jpg">
     <meta property="og:description" content="w4ctech-风起于青萍之末，浪成于微澜之间。">
-    <meta property="og:article:tag" content="vue.js基本指令"> 
+    <meta property="og:article:tag" content="vue.js基本指令"> <meta property="og:article:tag" content="vue"> 
 
     
         <meta property="article:published_time" content="Mon Apr 23 2018 00:00:00 GMT+0800">
-        <meta property="article:modified_time" content="Tue Apr 24 2018 19:31:18 GMT+0800">
+        <meta property="article:modified_time" content="Wed Apr 25 2018 06:44:06 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -268,7 +268,7 @@
     "mainEntityOfPage": "https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/index.html",
     "headline": "vue学习笔记-vue基本指令",
     "datePublished": "Mon Apr 23 2018 00:00:00 GMT+0800",
-    "dateModified": "Tue Apr 24 2018 19:31:18 GMT+0800",
+    "dateModified": "Wed Apr 25 2018 06:44:06 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "w4ctech",
@@ -286,7 +286,7 @@
             "url": "/img/favicon.jpg"
         }
     },
-    "keywords": ",vue.js基本指令w4ctech-风起于青萍之末，浪成于微澜之间。",
+    "keywords": ",vue.js基本指令,vuew4ctech-风起于青萍之末，浪成于微澜之间。",
     "description": "w4ctech-风起于青萍之末，浪成于微澜之间。",
 }
 </script>
@@ -444,7 +444,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/vue-js基本指令/">vue.js基本指令</a>
+        <a class="post_tag-link" href="/tags/vue/">vue</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/vue-js基本指令/">vue.js基本指令</a>
     </ul>
     
 
@@ -756,7 +756,7 @@ v-hide这个指令在vue中没有，在angular中有这个ng-hide，[github关�
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">5</span></a>
+                <a class="sidebar_archives-link" href="/archives/2018/04/">四月 2018<span class="sidebar_archives-count">7</span></a>
             </ul>
         </li>
         
@@ -776,7 +776,7 @@ v-hide这个指令在vue中没有，在angular中有这个ng-hide，[github关�
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/hello-word/">hello word<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/web/">web<span class="sidebar_archives-count">4</span></a>
+                <a class="sidebar_archives-link" href="/categories/hello-word/">hello word<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/web/">web<span class="sidebar_archives-count">6</span></a>
             </ul>
         </li>
         
@@ -832,7 +832,7 @@ v-hide这个指令在vue中没有，在angular中有这个ng-hide，[github关�
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">5</span>
+                <span class="sidebar-badge">7</span>
             </a>
         </li>
         
@@ -939,10 +939,12 @@ It will not impact the appearance and can give developers a lot of support :)
         <div id="copyright">
         	 <span id="w3ctech.coding.me siteTime"></span><br />
             Copyright&nbsp;©2018 Hosted by <a href="https://pages.coding.me">Coding Pages</a>
-            	<br>
-                <span id="音寂">愿用三生烟火，换你一世迷离</span>
+                <br>
+                <span id="w4ctech"></span>
+                <!-- <span id="音寂">愿用三生烟火，换你一世迷离</span> -->
+                
             <br />
-            <span id="w4ctech"></span>
+        <p id="hitokoto">每一个不曾起舞的日子,都是对生命的辜负！</p>
             <br />        
         </div>
         <!-- Paradox Footer Right Section -->
@@ -961,6 +963,8 @@ It will not impact the appearance and can give developers a lot of support :)
         </div>
     
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
 <script>
 	function w4ctechTime() {
         window.setTimeout("w4ctechTime()", 100);
@@ -977,6 +981,20 @@ It will not impact the appearance and can give developers a lot of support :)
 		w4ctech.innerHTML= currentTime
 		}
         w4ctechTime()
+</script>
+<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+<script>
+    fetch('https://v1.hitokoto.cn')
+        .then(function (res) {
+            return res.json();
+        })
+        .then(function (data) {
+            var hitokoto = document.getElementById('hitokoto');
+            hitokoto.innerText = data.hitokoto;
+        })
+        .catch(function (err) {
+            console.error(err);
+        })
 </script>
 <style>
 	footer{
