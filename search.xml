@@ -95,6 +95,13 @@
     
     <entry>
       <title></title>
+      <link href="/404/index.json"/>
+      <url>/404/index.json</url>
+      <content type="html"><![CDATA[test]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
       <content type="html"><![CDATA[<pre><code>    &lt;!-- &lt;p&gt;待他日能够成为一名真正的前端工程师的时候再写吧&lt;/p&gt; --&gt;</code></pre>]]></content>

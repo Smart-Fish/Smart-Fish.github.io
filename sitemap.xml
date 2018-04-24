@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://w4ctech.coding.me/404/index.json</loc>
+    
+    <lastmod>2018-04-24T03:14:13.517Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/</loc>
     
     <lastmod>2018-04-24T02:55:00.950Z</lastmod>
