@@ -245,7 +245,7 @@
 
     
         <meta property="article:published_time" content="Mon Apr 23 2018 00:00:00 GMT+0800">
-        <meta property="article:modified_time" content="Tue Apr 24 2018 12:10:27 GMT+0800">
+        <meta property="article:modified_time" content="Tue Apr 24 2018 13:37:14 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -268,7 +268,7 @@
     "mainEntityOfPage": "https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/index.html",
     "headline": "vue学习笔记",
     "datePublished": "Mon Apr 23 2018 00:00:00 GMT+0800",
-    "dateModified": "Tue Apr 24 2018 12:10:27 GMT+0800",
+    "dateModified": "Tue Apr 24 2018 13:37:14 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "w4ctech",
@@ -514,9 +514,29 @@
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
         <h2 id="vue语法指令："><a href="#vue语法指令：" class="headerlink" title="vue语法指令："></a>vue语法指令：</h2><p>vue的指令是将js的vue实例绑定至html元素，通过vue实例中的data内的属性或者methods内的方法，对所绑定的子元素进行操作。</p>
-<p>vue语法的基本格式：<br><a href="https://s1.ax2x.com/2018/04/24/8Mx1y.png" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/24/8Mx1y.png" alt="vue语法的基本格式"></a></p>
-<p>html:<br><code>&lt;body&gt;</code><br>    <code>&lt;div id=&quot;app&quot;&gt;</code><br>    <code>vue代码区</code><br>   <code>&lt;/div&gt;</code><br><code>&lt;/body&gt;</code></p>
-<p>js:<br>  <code>var vm =new Vue({</code><br>       <code>el:&#39;#app&#39;,</code><br>        <code>data:{</code>                                       <code>data 用来操作demo</code><br>        <code>title:this is  title</code>                         <code>方法名:&#39;内容&#39;,</code><br>        <code>},</code><br>        <code>methods:{</code>                                    <code>methods 用来操作js</code><br>           <code>click(){</code>                        <code>//click() js方法名</code><br>               <code>this.isTrue = !this.isTrue</code>  <code>//执行事件</code><br>           <code>}</code><br>       <code>}</code><br>    <code>})</code></p>
+<details>
+
+<summary>vue语法的基本格式： </summary>
+
+<p>html:</p>
+<pre><code>    &lt;body&gt;
+        &lt;div id=&quot;app&quot;&gt;
+        // vue code
+        &lt;/div&gt;
+    &lt;/body&gt;    
+</code></pre><p>js:</p>
+<pre><code>    var vm =new Vue({                // new Vue vue格式固定语法
+        el:&#39;#app&#39;,                   // 绑定id
+        data:{                       // data 用来操作html     
+            vuehello:&quot;hello vue&quot;     //标签：&#39;内容&#39;   可以为对象 
+        },
+        methods:{                    //methods 用来操作dom
+            click(){                 //js 事件名
+                alert(233)           //js 事件
+            }
+        }
+    })
+</code></pre><p></p></details>        <p></p>
 <h3 id="插值表达式"><a href="#插值表达式" class="headerlink" title="插值表达式"></a>插值表达式</h3>
 <iframe height="265" scrolling="no" title="vue.js" src="//codepen.io/w4ctech/embed/jxWBbw/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/jxWBbw/" target="_blank" rel="noopener">vue.js</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
 </iframe>
