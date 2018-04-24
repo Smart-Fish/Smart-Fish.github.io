@@ -97,14 +97,7 @@
       <title></title>
       <link href="/404.html"/>
       <url>/404.html</url>
-      <content type="html"><![CDATA[<!DOCTYPE html><html style="display: none;" lang="zh"><head>    <meta charset="utf-8">    <!--        © Material Theme        https://github.com/viosey/hexo-theme-material        Version: 1.5.2 -->    <script>        window.materialVersion = "1.5.2"        // Delete localstorage with these tags        window.oldVersion = [            'codestartv1',            '1.3.4',            '1.4.0',            '1.4.0b1',            '1.5.0'        ]    </script>    <!-- dns prefetch -->    <meta http-equiv="x-dns-prefetch-control" content="on">    <link rel="dns-prefetch" href="https://cdn1.lncld.net">    <!-- Meta & Info -->    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">    <meta name="renderer" content="webkit">    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">    <!-- Title -->    <title>        w4ctech    </title>    <!-- Favicons -->    <link rel="icon shortcut" type="image/ico" href="/img/favicon.jpg">    <link rel="icon" href="/img/favicon.jpg">    <meta name="format-detection" content="telephone=no">    <meta name="description" itemprop="description" content="w4ctech-风起于青萍之末，浪成于微澜之间。">    <meta name="keywords" content="w4ctech-风起于青萍之末，浪成于微澜之间。">    <meta name="theme-color" content="#0097A7">    <!-- Disable Fucking Bloody Baidu Tranformation -->    <meta http-equiv="Cache-Control" content="no-transform">    <meta http-equiv="Cache-Control" content="no-siteapp"></head><body><script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="https://w3ctech.coding.me/?from=http://w3ctech.coding.me" homepagename="回到主页"></script></body></html>]]></content>
-    </entry>
-    
-    <entry>
-      <title></title>
-      <link href="/404/index.json"/>
-      <url>/404/index.json</url>
-      <content type="html"><![CDATA[test]]></content>
+      <content type="html"><![CDATA[<!DOCTYPE html><html style="display: none;" lang="zh"><head>    <meta charset="utf-8">    <meta http-equiv="x-dns-prefetch-control" content="on">    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">    <meta name="renderer" content="webkit">    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">    <title> w4ctech-404 </title>    <link rel="icon shortcut" type="image/ico" href="/img/favicon.jpg">    <link rel="icon" href="/img/favicon.jpg">    <meta name="format-detection" content="telephone=no">    <meta name="description" itemprop="description" content="w4ctech-风起于青萍之末，浪成于微澜之间。">    <meta name="keywords" content="w4ctech-风起于青萍之末，浪成于微澜之间。">    <meta name="theme-color" content="#0097A7">    <meta http-equiv="Cache-Control" content="no-transform">    <meta http-equiv="Cache-Control" content="no-siteapp"></head><body><script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="https://w3ctech.coding.me/?from=http://w3ctech.coding.me" homepagename="回到主页"></script></body></html>]]></content>
     </entry>
     
     <entry>
