@@ -245,7 +245,7 @@
 
     
         <meta property="article:published_time" content="Mon Apr 23 2018 00:00:00 GMT+0800">
-        <meta property="article:modified_time" content="Tue Apr 24 2018 08:46:25 GMT+0800">
+        <meta property="article:modified_time" content="Tue Apr 24 2018 10:55:00 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -268,7 +268,7 @@
     "mainEntityOfPage": "https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/index.html",
     "headline": "vue学习笔记",
     "datePublished": "Mon Apr 23 2018 00:00:00 GMT+0800",
-    "dateModified": "Tue Apr 24 2018 08:46:25 GMT+0800",
+    "dateModified": "Tue Apr 24 2018 10:55:00 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "w4ctech",
@@ -362,6 +362,15 @@
 
     <!-- Left aligned menu below button -->
     
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#vue语法指令："><span class="post-toc-number">1.</span> <span class="post-toc-text">vue语法指令：</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#插值表达式"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">插值表达式</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#v-model"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">v-model</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#v-text"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">v-text</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#v-html"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">v-html</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#v-bind"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">v-bind</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#v-bind的基本用法"><span class="post-toc-number">1.6.</span> <span class="post-toc-text">v-bind的基本用法</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#v-bind-style"><span class="post-toc-number">1.6.1.</span> <span class="post-toc-text">v-bind:style</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#js控制css是否显示"><span class="post-toc-number">1.6.1.1.</span> <span class="post-toc-text">js控制css是否显示</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#vue语法定义css样式"><span class="post-toc-number">1.6.1.2.</span> <span class="post-toc-text">vue语法定义css样式</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#直接定义："><span class="post-toc-number">1.6.1.2.1.</span> <span class="post-toc-text">直接定义：</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#使用对象定义："><span class="post-toc-number">1.6.1.2.2.</span> <span class="post-toc-text">使用对象定义：</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#三元表达式："><span class="post-toc-number">1.6.1.2.3.</span> <span class="post-toc-text">三元表达式：</span></a></li></ol></li></ol></li></ol></li></ol></li></ol>
+    </ul>
     
 
 
@@ -504,35 +513,51 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>vue语法指令：</p>
-<p>vue的指令是将js的vue实例绑定至html元素，通过vue实例中的data内的属性或者methods内的方法，对所绑定的子元素进行操作。</p>
-<p>1 插值表达式<br>
+        <h2 id="vue语法指令："><a href="#vue语法指令：" class="headerlink" title="vue语法指令："></a>vue语法指令：</h2><p>vue的指令是将js的vue实例绑定至html元素，通过vue实例中的data内的属性或者methods内的方法，对所绑定的子元素进行操作。</p>
+<h3 id="插值表达式"><a href="#插值表达式" class="headerlink" title="插值表达式"></a>插值表达式</h3>
 <iframe height="265" scrolling="no" title="vue.js" src="//codepen.io/w4ctech/embed/jxWBbw/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/jxWBbw/" target="_blank" rel="noopener">vue.js</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
 </iframe>
-</p>
-<p>2 v-model</p>
 
+<h3 id="v-model"><a href="#v-model" class="headerlink" title="v-model"></a>v-model</h3>
 <iframe height="265" scrolling="no" title="v-model" src="//codepen.io/w4ctech/embed/pVgwXP/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/pVgwXP/" target="_blank" rel="noopener">v-model</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
 </iframe>
 
 <p>v-model是双向数据绑定的，一般用于input标签！</p>
-<p>3 v-text<br>
+<h3 id="v-text"><a href="#v-text" class="headerlink" title="v-text"></a>v-text</h3>
 <iframe height="265" scrolling="no" title="v-text" src="//codepen.io/w4ctech/embed/XqXaNB/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/XqXaNB/" target="_blank" rel="noopener">v-text</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
 </iframe>
-<br>v-text用来操作文本，会替换对应标签内的值<br>
+
+<p>v-text用来操作文本，会替换对应标签内的值<br>
 <iframe height="265" scrolling="no" title="v-text替换原有标签的值" src="//codepen.io/w4ctech/embed/KRVboZ/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/KRVboZ/" target="_blank" rel="noopener">v-text替换原有标签的值</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
 </iframe>
 </p>
 <p><a href="https://s1.ax2x.com/2018/04/24/8MmZr.png" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/24/8MmZr.png" alt="v-text替换标签内的值"></a></p>
-<p>4 v-html<br>
+<h3 id="v-html"><a href="#v-html" class="headerlink" title="v-html"></a>v-html</h3>
 <iframe height="265" scrolling="no" title="v-html" src="//codepen.io/w4ctech/embed/rvxzwZ/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/rvxzwZ/" target="_blank" rel="noopener">v-html</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
 </iframe>
-<br>v-html用于输出html,可以将标签内的html标签解析后输出</p>
-<p>4 v-bind<br>
+
+<p>v-html用于输出html,可以将标签内的html标签解析后输出</p>
+<h3 id="v-bind"><a href="#v-bind" class="headerlink" title="v-bind"></a>v-bind</h3>
 <iframe height="265" scrolling="no" title="v-bind" src="//codepen.io/w4ctech/embed/ELPvOz/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/ELPvOz/" target="_blank" rel="noopener">v-bind</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
 </iframe>
-</p>
+
 <p>v-bind的语法是<code>v-bind:css标签属性=&quot;vue标签名&quot;</code><br>v-bind 与中间的属性无联系 与data里面的属性绑定<br><a href="https://s1.ax2x.com/2018/04/24/8MzNY.png" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/24/8MzNY.png" alt="v-text替换标签内的值"></a><br>v-bind的简写形式<code>:css标签属性=&quot;vue标签名&quot;</code><br><a href="https://s1.ax2x.com/2018/04/24/8MY9i.png" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/24/8MY9i.png" alt="v-text替换标签内的值"></a></p>
+<h3 id="v-bind的基本用法"><a href="#v-bind的基本用法" class="headerlink" title="v-bind的基本用法"></a>v-bind的基本用法</h3><h4 id="v-bind-style"><a href="#v-bind-style" class="headerlink" title="v-bind:style"></a>v-bind:style</h4><h5 id="js控制css是否显示"><a href="#js控制css是否显示" class="headerlink" title="js控制css是否显示"></a>js控制css是否显示</h5>
+<iframe height="265" scrolling="no" title="v-bind" src="//codepen.io/w4ctech/embed/RyrdWJ/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/RyrdWJ/" target="_blank" rel="noopener">v-bind</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
+</iframe>
+
+<h5 id="vue语法定义css样式"><a href="#vue语法定义css样式" class="headerlink" title="vue语法定义css样式"></a>vue语法定义css样式</h5><h6 id="直接定义："><a href="#直接定义：" class="headerlink" title="直接定义："></a>直接定义：</h6>
+<iframe height="265" scrolling="no" title=".v-bind:style" src="//codepen.io/w4ctech/embed/yjewVY/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/yjewVY/" target="_blank" rel="noopener">.v-bind:style</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
+</iframe>
+
+<h6 id="使用对象定义："><a href="#使用对象定义：" class="headerlink" title="使用对象定义："></a>使用对象定义：</h6>
+<iframe height="265" scrolling="no" title="v-bind:style" src="//codepen.io/w4ctech/embed/yjewzO/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/yjewzO/" target="_blank" rel="noopener">v-bind:style</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
+</iframe>
+
+<h6 id="三元表达式："><a href="#三元表达式：" class="headerlink" title="三元表达式："></a>三元表达式：</h6>
+<iframe height="265" scrolling="no" title="v-bind:style三元表达式" src="//codepen.io/w4ctech/embed/WJrmzv/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/WJrmzv/" target="_blank" rel="noopener">v-bind:style三元表达式</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
+</iframe>
+
 
         
     
