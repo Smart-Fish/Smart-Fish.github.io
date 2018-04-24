@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://w4ctech.coding.me/"/>
-  <updated>2018-04-24T12:26:56.976Z</updated>
+  <updated>2018-04-24T12:58:55.940Z</updated>
   <id>https://w4ctech.coding.me/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://w4ctech.coding.me/2018/04/24/vue%E7%BB%84%E4%BB%B6/"/>
     <id>https://w4ctech.coding.me/2018/04/24/vue组件/</id>
     <published>2018-04-23T16:00:00.000Z</published>
-    <updated>2018-04-24T12:26:56.976Z</updated>
+    <updated>2018-04-24T12:58:55.940Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="一-vue组件："><a href="#一-vue组件：" class="headerlink" title="一.vue组件："></a>一.vue组件：</h2><p>1.全局组件用Vue.component()方法，先传入一个自定义组件的名字，然后再进行配置，所有的Vue实例都可以使用。<br>2.局部组件过某个Vue实例的实例选项components属性来注册多个组件。</p><h3 id="1-全局组件和局部组件"><a href="#1-全局组件和局部组件" class="headerlink" title="1.全局组件和局部组件"></a>1.全局组件和局部组件</h3><iframe height="265" scrolling="no" title="vue定义组件基本格式" src="//codepen.io/w4ctech/embed/PeNpQN/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/PeNpQN/" target="_blank" rel="noopener">vue定义组件基本格式</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><h4 id="全局组件语法"><a href="#全局组件语法" class="headerlink" title="全局组件语法"></a>全局组件语法</h4><pre><code>    Vue.component(&#39;模板名&#39;, {        template：// 组件内容    })    new Vue({        el: &#39;绑定的id&#39;,        data:{        },        methods:{        }    })</code></pre><h4 id="局部组件语法"><a href="#局部组件语法" class="headerlink" title="局部组件语法"></a>局部组件语法</h4><pre><code>    var app = new Vue({        el: &#39;#绑定的id&#39;,        data: {        },        methods:{        }        components: {        &#39;组件名1&#39;: {            template: //模板内容,        }，       &#39;组件名2&#39;: {            template: //模板内容,        }，        }    })</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2 id="一-vue组件："><a href="#一-vue组件：" class="headerlink" title="一.vue组件："></a>一.vue组件：</h2><p>1.全局组件用Vue.component()方法，先传入一个自定义组件的名字，然后再进行配置，所有的Vue实例都可以使用。<br>2.局部组件过某个Vue实例的实例选项components属性来注册多个组件。</p><h3 id="1-全局组件和局部组件"><a href="#1-全局组件和局部组件" class="headerlink" title="1.全局组件和局部组件"></a>1.全局组件和局部组件</h3><iframe height="265" scrolling="no" title="vue定义组件基本格式" src="//codepen.io/w4ctech/embed/PeNpQN/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/PeNpQN/" target="_blank" rel="noopener">vue定义组件基本格式</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><h4 id="全局组件语法"><a href="#全局组件语法" class="headerlink" title="全局组件语法"></a>全局组件语法</h4><pre><code>    Vue.component(&#39;模板名&#39;, {        template：// 组件内容    })    new Vue({        el: &#39;绑定的id&#39;,        data:{        },        methods:{        }    })</code></pre><h4 id="局部组件语法"><a href="#局部组件语法" class="headerlink" title="局部组件语法"></a>局部组件语法</h4><pre><code>    var app = new Vue({        el: &#39;#绑定的id&#39;,        data: {        },        methods:{        }        components: {        &#39;组件名1&#39;: {            template: //模板内容,        }，       &#39;组件名2&#39;: {            template: //模板内容,        }，        }    })</code></pre><p>自定义组件注意事项<br><img src="https://s1.ax2x.com/2018/04/24/8sVVJ.png" alt="自定义组件注意事项"></p>]]></content>
     
     <summary type="html">
     
@@ -97,6 +97,31 @@
   </entry>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://w4ctech.coding.me/2018/04/15/hello-world/"/>
+    <id>https://w4ctech.coding.me/2018/04/15/hello-world/</id>
+    <published>2018-04-14T16:00:00.000Z</published>
+    <updated>2018-04-18T22:51:17.120Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+      <category term="hello word" scheme="https://w4ctech.coding.me/categories/hello-word/"/>
+    
+    
+      <category term="hello word" scheme="https://w4ctech.coding.me/tags/hello-word/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Canvas——保存和恢复绘图状态</title>
     <link href="https://w4ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/"/>
     <id>https://w4ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/</id>
@@ -119,31 +144,6 @@
     
     
       <category term="canvas" scheme="https://w4ctech.coding.me/tags/canvas/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://w4ctech.coding.me/2018/04/15/hello-world/"/>
-    <id>https://w4ctech.coding.me/2018/04/15/hello-world/</id>
-    <published>2018-04-14T16:00:00.000Z</published>
-    <updated>2018-04-18T22:51:17.120Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-      <category term="hello word" scheme="https://w4ctech.coding.me/categories/hello-word/"/>
-    
-    
-      <category term="hello word" scheme="https://w4ctech.coding.me/tags/hello-word/"/>
     
   </entry>
   
