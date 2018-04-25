@@ -174,13 +174,6 @@
     </entry>
     
     <entry>
-      <title></title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<pre><code>    &lt;!-- &lt;p&gt;待他日能够成为一名真正的前端工程师的时候再写吧&lt;/p&gt; --&gt;</code></pre>]]></content>
-    </entry>
-    
-    <entry>
       <title>gallery</title>
       <link href="/gallery/index.html"/>
       <url>/gallery/index.html</url>
@@ -192,6 +185,13 @@
       <link href="/links/index.html"/>
       <url>/links/index.html</url>
       <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title></title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<pre><code>    &lt;!-- &lt;p&gt;待他日能够成为一名真正的前端工程师的时候再写吧&lt;/p&gt; --&gt;</code></pre>]]></content>
     </entry>
     
     <entry>

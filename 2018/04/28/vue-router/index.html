@@ -850,11 +850,8 @@ It will not impact the appearance and can give developers a lot of support :)
                 <a href="https://pages.coding.me">Coding Pages</a>
                 <br>
                 <span id="w4ctech"></span>
+                <br>
                 <!-- <span id="音寂">愿用三生烟火，换你一世迷离</span> -->
-
-                <br />
-                <p id="hitokoto">每一个不曾起舞的日子,都是对生命的辜负！</p>
-                <br />
             </div>
             <!-- Paradox Footer Right Section -->
             <!--
@@ -895,20 +892,6 @@ It will not impact the appearance and can give developers a lot of support :)
         w4ctech.innerHTML = currentTime
     }
     w4ctechTime()
-</script>
-<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
-<script>
-    fetch('https://v1.hitokoto.cn')
-        .then(function (res) {
-            return res.json();
-        })
-        .then(function (data) {
-            var hitokoto = document.getElementById('hitokoto');
-            hitokoto.innerText = data.hitokoto;
-        })
-        .catch(function (err) {
-            console.error(err);
-        })
 </script>
 <style>
     footer {
