@@ -25,6 +25,8 @@
     <link rel="dns-prefetch" href="https://cdn1.lncld.net"/>
 
 
+    <link rel="dns-prefetch" href="https://busuanzi.ibruce.info"/>
+
 
 
 
@@ -45,7 +47,7 @@
     
     <title>
         
-            vue学习笔记-vue基本指令 | 
+            vue学习笔记-vue指令、vue条件语句 | 
         
         w4ctech
     </title>
@@ -56,7 +58,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="w4ctech-风起于青萍之末，浪成于微澜之间。">
-    <meta name="keywords" content="w4ctech-风起于青萍之末，浪成于微澜之间。,vue,vue.js基本指令">
+    <meta name="keywords" content="w4ctech-风起于青萍之末，浪成于微澜之间。,vue,vue指令,vue条件语句">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -223,7 +225,6 @@
     <meta name="apple-mobile-web-app-title" content="w4ctech">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="apple-touch-icon" href="/img/favicon.jpg">
-    <link rel="stylesheet" href="">
 
     <!-- Site Verification -->
     
@@ -239,14 +240,14 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="vue学习笔记-vue基本指令 | w4ctech">
+    <meta property="og:title" content="vue学习笔记-vue指令、vue条件语句 | w4ctech">
     <meta property="og:image" content="/img/favicon.jpg">
     <meta property="og:description" content="w4ctech-风起于青萍之末，浪成于微澜之间。">
-    <meta property="og:article:tag" content="vue"> <meta property="og:article:tag" content="vue.js基本指令"> 
+    <meta property="og:article:tag" content="vue"> <meta property="og:article:tag" content="vue指令"> <meta property="og:article:tag" content="vue条件语句"> 
 
     
         <meta property="article:published_time" content="Mon Apr 23 2018 00:00:00 GMT+0800">
-        <meta property="article:modified_time" content="Wed Apr 25 2018 06:44:06 GMT+0800">
+        <meta property="article:modified_time" content="Wed Apr 25 2018 18:54:27 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -267,9 +268,9 @@
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "mainEntityOfPage": "https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/index.html",
-    "headline": "vue学习笔记-vue基本指令",
+    "headline": "vue学习笔记-vue指令、vue条件语句",
     "datePublished": "Mon Apr 23 2018 00:00:00 GMT+0800",
-    "dateModified": "Wed Apr 25 2018 06:44:06 GMT+0800",
+    "dateModified": "Wed Apr 25 2018 18:54:27 GMT+0800",
     "author": {
         "@type": "Person",
         "name": "w4ctech",
@@ -287,7 +288,7 @@
             "url": "/img/favicon.jpg"
         }
     },
-    "keywords": ",vue,vue.js基本指令w4ctech-风起于青萍之末，浪成于微澜之间。",
+    "keywords": ",vue,vue指令,vue条件语句w4ctech-风起于青萍之末，浪成于微澜之间。",
     "description": "w4ctech-风起于青萍之末，浪成于微澜之间。",
 }
 </script>
@@ -320,6 +321,10 @@
     <!-- Custom Head -->
     
 
+
+<!-- ... -->
+<!-- fancybox support -->
+<!-- ... -->
 </head>
 
 
@@ -402,7 +407,7 @@
         
     
             <p class="article-headline-p">
-                vue学习笔记-vue基本指令
+                vue学习笔记-vue指令、vue条件语句
             </p>
         </div>
 
@@ -445,7 +450,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        <a class="post_tag-link" href="/tags/vue/">vue</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/vue-js基本指令/">vue.js基本指令</a>
+        <a class="post_tag-link" href="/tags/vue/">vue</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/vue指令/">vue指令</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/vue条件语句/">vue条件语句</a>
     </ul>
     
 
@@ -459,10 +464,21 @@
     
 
     
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
+        
+    
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=vue学习笔记-vue基本指令&url=https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/index.html&pic=https://w4ctech.coding.me/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=vue学习笔记-vue指令、vue条件语句&url=https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/index.html&pic=https://w4ctech.coding.me/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -495,7 +511,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=w4ctech&title=vue学习笔记-vue基本指令&summary=w4ctech-风起于青萍之末，浪成于微澜之间。&pics=https://w4ctech.coding.me/img/favicon.jpg&url=https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=w4ctech&title=vue学习笔记-vue指令、vue条件语句&summary=w4ctech-风起于青萍之末，浪成于微澜之间。&pics=https://w4ctech.coding.me/img/favicon.jpg&url=https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -1010,39 +1026,9 @@ It will not impact the appearance and can give developers a lot of support :)
         line-height: 1.67;
     }
 </style>
-<script src="http://www.5ih5.org/jquery.fancybox.js"></script>
-<script>
-    $(document).ready(function () {
-        wrapImageWithFancyBox();
-    }); /** * Wrap images with fancybox support. */
-    function wrapImageWithFancyBox() {
-        $('img').not('.sidebar-image img').not('#author-avatar img').not(".mdl-menu img").each(function () {
-            var $image = $(this);
-            var imageCaption = $image.attr('alt');
-            var $imageWrapLink = $image.parent('a');
-            if ($imageWrapLink.size() < 1) {
-                var src = t
-                his.getAttribute('src');
-                var idx = s rc.lastIndexOf('?');
-                if (idx != -1) {
-                    src = s rc.substring(0, idx);
-                }
-                $imageWrapLink = $
-                image.wrap('<a href="' + src + '"></a>').parent('a');
-            }
-            $imageWrapLink.attr('data-fancybox', 'images');
-            if (imageCaption) {
-                $imageWrapLink.attr('data-caption', imageCaption);
-            }
-        });
-        $().fancybox({
-            selector: '[data-fancybox="images"]',
-            thumbs: true,
-            hash: false,
-            loop: false,
-        });
-    }
-</script>
+<link rel="stylesheet" href="https://w3ctech.gitee.io/lib/css/jquery.fancybox.min.css">
+<script src="https://w3ctech.gitee.io/lib/js/jquery.fancybox.js"></script>
+<script src="https://w3ctech.gitee.io/lib//js/wrapImage.js"></script>
 
                     <!-- Import JS File -->
 
@@ -1087,6 +1073,9 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+
+    <!-- Busuanzi -->
+    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 

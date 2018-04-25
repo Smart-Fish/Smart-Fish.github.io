@@ -25,6 +25,8 @@
     <link rel="dns-prefetch" href="https://cdn1.lncld.net"/>
 
 
+    <link rel="dns-prefetch" href="https://busuanzi.ibruce.info"/>
+
 
 
 
@@ -223,7 +225,6 @@
     <meta name="apple-mobile-web-app-title" content="w4ctech">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <link rel="apple-touch-icon" href="/img/favicon.jpg">
-    <link rel="stylesheet" href="">
 
     <!-- Site Verification -->
     
@@ -287,6 +288,10 @@
     <!-- Custom Head -->
     
 
+
+<!-- ... -->
+<!-- fancybox support -->
+<!-- ... -->
 </head>
 
 
@@ -721,7 +726,7 @@
 							<a class="category-link" href="/categories/web/">web</a>
 						</span>
 						<span class="md-timeline-info-span">Tags:
-							<a class="tag-link" href="/tags/vue/">vue</a>, <a class="tag-link" href="/tags/vue的路由/">vue的路由</a>
+							<a class="tag-link" href="/tags/vue/">vue</a>, <a class="tag-link" href="/tags/vue路由/">vue路由</a>
 						</span>
 						
 					</div>
@@ -745,7 +750,7 @@
 							<a class="category-link" href="/categories/web/">web</a>
 						</span>
 						<span class="md-timeline-info-span">Tags:
-							<a class="tag-link" href="/tags/vue/">vue</a>, <a class="tag-link" href="/tags/vue的生命周期/">vue的生命周期</a>
+							<a class="tag-link" href="/tags/vue/">vue</a>, <a class="tag-link" href="/tags/vue生命周期/">vue生命周期</a>
 						</span>
 						
 					</div>
@@ -771,7 +776,7 @@
 							<a class="category-link" href="/categories/web/">web</a>
 						</span>
 						<span class="md-timeline-info-span">Tags:
-							<a class="tag-link" href="/tags/vue/">vue</a>, <a class="tag-link" href="/tags/vue-js组件/">vue.js组件</a>
+							<a class="tag-link" href="/tags/vue/">vue</a>, <a class="tag-link" href="/tags/vue组件/">vue组件</a>
 						</span>
 						
 					</div>
@@ -789,13 +794,13 @@
                 		</div>
 
                 		<div class="md-timeline-content">
-                    			<div class="md-timeline-title"><a href="/2018/04/23/vue-notes-grammar/">vue学习笔记-vue基本指令</a></div>
+                    			<div class="md-timeline-title"><a href="/2018/04/23/vue-notes-grammar/">vue学习笔记-vue指令、vue条件语句</a></div>
 					<div class="md-timeline-info">
 						<span class="md-timeline-info-span">Categories:
 							<a class="category-link" href="/categories/web/">web</a>
 						</span>
 						<span class="md-timeline-info-span">Tags:
-							<a class="tag-link" href="/tags/vue/">vue</a>, <a class="tag-link" href="/tags/vue-js基本指令/">vue.js基本指令</a>
+							<a class="tag-link" href="/tags/vue/">vue</a>, <a class="tag-link" href="/tags/vue指令/">vue指令</a>, <a class="tag-link" href="/tags/vue条件语句/">vue条件语句</a>
 						</span>
 						
 					</div>
@@ -1221,39 +1226,9 @@ It will not impact the appearance and can give developers a lot of support :)
         line-height: 1.67;
     }
 </style>
-<script src="http://www.5ih5.org/jquery.fancybox.js"></script>
-<script>
-    $(document).ready(function () {
-        wrapImageWithFancyBox();
-    }); /** * Wrap images with fancybox support. */
-    function wrapImageWithFancyBox() {
-        $('img').not('.sidebar-image img').not('#author-avatar img').not(".mdl-menu img").each(function () {
-            var $image = $(this);
-            var imageCaption = $image.attr('alt');
-            var $imageWrapLink = $image.parent('a');
-            if ($imageWrapLink.size() < 1) {
-                var src = t
-                his.getAttribute('src');
-                var idx = s rc.lastIndexOf('?');
-                if (idx != -1) {
-                    src = s rc.substring(0, idx);
-                }
-                $imageWrapLink = $
-                image.wrap('<a href="' + src + '"></a>').parent('a');
-            }
-            $imageWrapLink.attr('data-fancybox', 'images');
-            if (imageCaption) {
-                $imageWrapLink.attr('data-caption', imageCaption);
-            }
-        });
-        $().fancybox({
-            selector: '[data-fancybox="images"]',
-            thumbs: true,
-            hash: false,
-            loop: false,
-        });
-    }
-</script>
+<link rel="stylesheet" href="https://w3ctech.gitee.io/lib/css/jquery.fancybox.min.css">
+<script src="https://w3ctech.gitee.io/lib/js/jquery.fancybox.js"></script>
+<script src="https://w3ctech.gitee.io/lib//js/wrapImage.js"></script>
 
                     <!-- Import JS File -->
 
@@ -1298,6 +1273,9 @@ It will not impact the appearance and can give developers a lot of support :)
 
 
 
+
+    <!-- Busuanzi -->
+    <script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
