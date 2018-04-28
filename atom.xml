@@ -41,18 +41,17 @@
     <link href="https://w4ctech.coding.me/2018/04/26/vue-life-cycle/"/>
     <id>https://w4ctech.coding.me/2018/04/26/vue-life-cycle/</id>
     <published>2018-04-25T16:00:00.000Z</published>
-    <updated>2018-04-28T14:48:15.286Z</updated>
+    <updated>2018-04-28T16:32:05.719Z</updated>
     
-    <content type="html"><![CDATA[<p>vue的生命周期？</p><p>vue实例从创建到销毁的过程称之为vue的生命周期。</p><p>官方关于vue声明周期的解释：</p><p><img src="https://cn.vuejs.org/images/lifecycle.png" alt="vue的生命周期"></p><p>vue的整个生命周期中会有很多钩子函数在vue生命周期不同的时刻进行操作。</p><ol><li><code>beforeCreate</code>     实例创建前：这个阶段实例的data、methods是读不到的。</li><li><code>created</code>            实例创建后：这个阶段已经完成了数据观测(data observer)，属性和方法的运算， watch/event 事件回调。mount挂载阶段还没开始，$el 属性目前不可见，数据并没有在DOM元素上进行渲染。</li><li><code>beforeMount</code>        在挂载开始之前被调用：相关的 render 函数首次被调用。</li><li><code>mounted</code>            el选项的DOM节点 被新创建的 vm.$el 替换，并挂载到实例上去之后调用此生命周期函数。此时实例的数据在DOM节点上进行渲染。</li><li><code>beforeUpdate</code>     数据更新时调用，但不进行DOM重新渲染，在数据更新时DOM没渲染前可以在这个生命函数里进行状态处理。</li><li><code>updated</code>            这个状态下数据更新并且DOM重新渲染，当这个生命周期函数被调用时，组件 DOM 已经更新，所以你现在可以执行依赖于 DOM 的操作。当实例每次进行数据更新时updated都会执行。</li><li><code>beforeDestroy</code>    实例销毁之前调用。</li><li><code>destroyed</code>        Vue实例销毁后调用。调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁。</li></ol><p><a href="https://simimg.com/i/8lAxn" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/28/8lAxn.png" alt="理解vue生命周期"></a></p>]]></content>
+    <content type="html"><![CDATA[<p>vue的生命周期？</p><p>vue实例从创建到销毁的过程称之为vue的生命周期:</p><p><a href="https://simimg.com/i/8lAxn" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/28/8lAxn.png" alt="理解vue生命周期"></a></p><p>vue的整个生命周期中会有很多钩子函数在vue生命周期不同的时刻进行操作：<br><a href="https://simimg.com/i/88E8A" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/29/88E8A.md.png" alt="vue-life-cycle"></a></p><ol><li><code>beforeCreate</code><br><img src="https://s1.ax2x.com/2018/04/29/88eHO.png" alt="beforeCreate 创建前状态"></li><li><code>created</code><br><img src="https://s1.ax2x.com/2018/04/29/88Uuq.png" alt="created 创建后状态"></li><li><code>beforeMount</code><br><img src="https://s1.ax2x.com/2018/04/29/88Kte.png" alt="beforeMount 挂载前状态"></li><li><code>mounted</code><br><img src="https://s1.ax2x.com/2018/04/29/88A3d.png" alt="mounted 挂载结束状态"><br><a href="https://simimg.com/i/88tGR" target="_blank" rel="noopener"><img src="https://s1.ax2x.com/2018/04/29/88tGR.png" alt="88tGR.png"></a></li><li><code>beforeUpdate</code>     数据更新时调用，但不进行DOM重新渲染。</li><li><code>updated</code>            这个状态下数据更新并且DOM重新渲染。</li><li><code>beforeDestroy</code>    实例销毁之前调用。</li><li><code>destroyed</code>        Vue实例销毁后调用。</li></ol>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;vue的生命周期？&lt;/p&gt;
-&lt;p&gt;vue实例从创建到销毁的过程称之为vue的生命周期。&lt;/p&gt;
-&lt;p&gt;官方关于vue声明周期的解释：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://cn.vuejs.org/images/lifecycle.png&quot; alt=&quot;vue的生
+&lt;p&gt;vue实例从创建到销毁的过程称之为vue的生命周期:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://simimg.com/i/8lAxn&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;&lt;img src=&quot;https://
       
     
     </summary>
