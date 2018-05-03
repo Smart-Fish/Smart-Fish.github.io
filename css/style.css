@@ -482,6 +482,7 @@ a {
     text-shadow: 1px 1px 8px #444
 }
 #scheme-Paradox .index-top-block-slogan a {
+	white-space: nowrap;
     text-decoration: none
 }
 @media screen and (max-width: 480px) {
