@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://w4ctech.coding.me/"/>
-  <updated>2018-04-25T10:55:01.813Z</updated>
+  <updated>2018-05-07T10:20:19.416Z</updated>
   <id>https://w4ctech.coding.me/</id>
   
   <author>
@@ -17,13 +17,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>最新激活windows方法</title>
+    <link href="https://w4ctech.coding.me/2018/05/08/activation-windows/"/>
+    <id>https://w4ctech.coding.me/2018/05/08/activation-windows/</id>
+    <published>2018-05-07T16:00:00.000Z</published>
+    <updated>2018-05-07T10:20:19.416Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Kms激活方法1"><a href="#Kms激活方法1" class="headerlink" title="Kms激活方法1:"></a>Kms激活方法1:</h2><h3 id="1-下载-https-kms-5ibug-org-download-php"><a href="#1-下载-https-kms-5ibug-org-download-php" class="headerlink" title="1.下载 https://kms.5ibug.org/download.php;"></a>1.下载 <a href="https://kms.5ibug.org/download.php" target="_blank" rel="noopener">https://kms.5ibug.org/download.php</a>;</h3><h3 id="2-运行-kms-bat。"><a href="#2-运行-kms-bat。" class="headerlink" title="2.运行 kms.bat。"></a>2.运行 kms.bat。</h3><h2 id="Kms激活方法2"><a href="#Kms激活方法2" class="headerlink" title="Kms激活方法2:"></a>Kms激活方法2:</h2><h3 id="1-管理员身份打开cmd窗口"><a href="#1-管理员身份打开cmd窗口" class="headerlink" title="1.管理员身份打开cmd窗口;"></a>1.管理员身份打开cmd窗口;</h3><h3 id="2-进入到system32文件夹"><a href="#2-进入到system32文件夹" class="headerlink" title="2.进入到system32文件夹;"></a>2.进入到system32文件夹;</h3><h3 id="3-slmgr-skms-kms-5ibug-org"><a href="#3-slmgr-skms-kms-5ibug-org" class="headerlink" title="3.slmgr /skms kms.5ibug.org"></a>3.slmgr /skms kms.5ibug.org</h3><h3 id="4-slmgr-ato"><a href="#4-slmgr-ato" class="headerlink" title="4.slmgr /ato"></a>4.slmgr /ato</h3><h3 id="5-slmgr-xpr"><a href="#5-slmgr-xpr" class="headerlink" title="5.slmgr /xpr"></a>5.slmgr /xpr</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Kms激活方法1&quot;&gt;&lt;a href=&quot;#Kms激活方法1&quot; class=&quot;headerlink&quot; title=&quot;Kms激活方法1:&quot;&gt;&lt;/a&gt;Kms激活方法1:&lt;/h2&gt;&lt;h3 id=&quot;1-下载-https-kms-5ibug-org-download-php&quot;&gt;
+      
+    
+    </summary>
+    
+      <category term="ohter" scheme="https://w4ctech.coding.me/categories/ohter/"/>
+    
+    
+      <category term="windows" scheme="https://w4ctech.coding.me/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
     <title>vue学习笔记-vue路由</title>
     <link href="https://w4ctech.coding.me/2018/04/28/vue-router/"/>
     <id>https://w4ctech.coding.me/2018/04/28/vue-router/</id>
     <published>2018-04-27T16:00:00.000Z</published>
-    <updated>2018-04-25T10:55:01.813Z</updated>
+    <updated>2018-05-07T10:10:15.530Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="路由中有三个基本的概念-route-routes-router！"><a href="#路由中有三个基本的概念-route-routes-router！" class="headerlink" title="路由中有三个基本的概念 route; routes;router！"></a>路由中有三个基本的概念 <code>route</code>; <code>routes</code>;<code>router</code>！</h2>]]></content>
     
     <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;路由中有三个基本的概念-route-routes-router！&quot;&gt;&lt;a href=&quot;#路由中有三个基本的概念-route-routes-router！&quot; class=&quot;headerlink&quot; title=&quot;路由中有三个基本的概念 route; routes;ro
+      
     
     </summary>
     

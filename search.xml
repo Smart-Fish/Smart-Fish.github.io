@@ -3,10 +3,31 @@
   
     
     <entry>
+      <title>最新激活windows方法</title>
+      <link href="/2018/05/08/activation-windows/"/>
+      <url>/2018/05/08/activation-windows/</url>
+      <content type="html"><![CDATA[<h2 id="Kms激活方法1"><a href="#Kms激活方法1" class="headerlink" title="Kms激活方法1:"></a>Kms激活方法1:</h2><h3 id="1-下载-https-kms-5ibug-org-download-php"><a href="#1-下载-https-kms-5ibug-org-download-php" class="headerlink" title="1.下载 https://kms.5ibug.org/download.php;"></a>1.下载 <a href="https://kms.5ibug.org/download.php" target="_blank" rel="noopener">https://kms.5ibug.org/download.php</a>;</h3><h3 id="2-运行-kms-bat。"><a href="#2-运行-kms-bat。" class="headerlink" title="2.运行 kms.bat。"></a>2.运行 kms.bat。</h3><h2 id="Kms激活方法2"><a href="#Kms激活方法2" class="headerlink" title="Kms激活方法2:"></a>Kms激活方法2:</h2><h3 id="1-管理员身份打开cmd窗口"><a href="#1-管理员身份打开cmd窗口" class="headerlink" title="1.管理员身份打开cmd窗口;"></a>1.管理员身份打开cmd窗口;</h3><h3 id="2-进入到system32文件夹"><a href="#2-进入到system32文件夹" class="headerlink" title="2.进入到system32文件夹;"></a>2.进入到system32文件夹;</h3><h3 id="3-slmgr-skms-kms-5ibug-org"><a href="#3-slmgr-skms-kms-5ibug-org" class="headerlink" title="3.slmgr /skms kms.5ibug.org"></a>3.slmgr /skms kms.5ibug.org</h3><h3 id="4-slmgr-ato"><a href="#4-slmgr-ato" class="headerlink" title="4.slmgr /ato"></a>4.slmgr /ato</h3><h3 id="5-slmgr-xpr"><a href="#5-slmgr-xpr" class="headerlink" title="5.slmgr /xpr"></a>5.slmgr /xpr</h3>]]></content>
+      
+      <categories>
+          
+          <category> ohter </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>vue学习笔记-vue路由</title>
       <link href="/2018/04/28/vue-router/"/>
       <url>/2018/04/28/vue-router/</url>
-      <content type="html"><![CDATA[]]></content>
+      <content type="html"><![CDATA[<h2 id="路由中有三个基本的概念-route-routes-router！"><a href="#路由中有三个基本的概念-route-routes-router！" class="headerlink" title="路由中有三个基本的概念 route; routes;router！"></a>路由中有三个基本的概念 <code>route</code>; <code>routes</code>;<code>router</code>！</h2>]]></content>
       
       <categories>
           
@@ -188,16 +209,16 @@
     </entry>
     
     <entry>
-      <title>gallery</title>
-      <link href="/gallery/index.html"/>
-      <url>/gallery/index.html</url>
+      <title>友链</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
     <entry>
-      <title>友链</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
+      <title>gallery</title>
+      <link href="/gallery/index.html"/>
+      <url>/gallery/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     
