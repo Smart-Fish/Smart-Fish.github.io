@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>windows下搭建部署前端自动化测试环境jenkins</title>
+      <link href="/2018/05/09/Jenkins/"/>
+      <url>/2018/05/09/Jenkins/</url>
+      <content type="html"><![CDATA[<p>Jenkins 是一款业界流行的开源持续集成工具，广泛用于项目开发，具有自动化构建、测试和部署等功能。</p><h4 id="环境说明"><a href="#环境说明" class="headerlink" title="环境说明"></a>环境说明</h4><h5 id="tomcat服务器"><a href="#tomcat服务器" class="headerlink" title="tomcat服务器"></a>tomcat服务器</h5><h5 id="java-jdk"><a href="#java-jdk" class="headerlink" title="java jdk"></a>java jdk</h5><h4 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h4><h5 id="1-下载windows版本的jenkins"><a href="#1-下载windows版本的jenkins" class="headerlink" title="1.下载windows版本的jenkins"></a>1.<a href="https://jenkins.io/download/thank-you-downloading-windows-installer-stable" title="下载windows版本的jenkins" target="_blank" rel="noopener">下载windows版本的jenkins</a></h5><h5 id="2-将安装后生成的jenkins-war文件放到tomcat的webapps目录下"><a href="#2-将安装后生成的jenkins-war文件放到tomcat的webapps目录下" class="headerlink" title="2.将安装后生成的jenkins.war文件放到tomcat的webapps目录下"></a>2.将安装后生成的<code>jenkins.war</code>文件放到tomcat的webapps目录下</h5><h5 id="3-访问-localhost-8080-jenkins"><a href="#3-访问-localhost-8080-jenkins" class="headerlink" title="3.访问 localhost:8080/jenkins"></a>3.访问 <code>localhost:8080/jenkins</code></h5><h5 id="4-按照提示进行安装"><a href="#4-按照提示进行安装" class="headerlink" title="4.按照提示进行安装:"></a>4.按照提示进行安装:</h5><h6 id="1-默认密码位于安装目录-secrets-initialAdminPassword该文件中"><a href="#1-默认密码位于安装目录-secrets-initialAdminPassword该文件中" class="headerlink" title="1.默认密码位于安装目录\secrets\initialAdminPassword该文件中"></a>1.默认密码位于<code>安装目录\secrets\initialAdminPassword</code>该文件中</h6><h6 id="2-安装插件选择左边默认的"><a href="#2-安装插件选择左边默认的" class="headerlink" title="2.安装插件选择左边默认的"></a>2.安装插件选择左边默认的</h6><h6 id="3-插件安装后进入账户配置页面"><a href="#3-插件安装后进入账户配置页面" class="headerlink" title="3.插件安装后进入账户配置页面"></a>3.插件安装后进入账户配置页面</h6><p><a href="jenkins is ready"><img src="https://s1.ax2x.com/2018/05/08/f3eYl.png" alt="jenkins is ready"></a><br>当页面显示<code>jenkins is ready</code>即安装成功</p>]]></content>
+      
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Jenkins </tag>
+            
+            <tag> 自动化测试 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>最新激活windows方法</title>
       <link href="/2018/05/08/activation-windows/"/>
       <url>/2018/05/08/activation-windows/</url>
@@ -143,27 +166,6 @@
     </entry>
     
     <entry>
-      <title>Hello World</title>
-      <link href="/2018/04/15/hello-world/"/>
-      <url>/2018/04/15/hello-world/</url>
-      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-      
-      <categories>
-          
-          <category> hello word </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> hello word </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>Canvas——保存和恢复绘图状态</title>
       <link href="/2018/04/15/canvas-save-restore-drawing-status/"/>
       <url>/2018/04/15/canvas-save-restore-drawing-status/</url>
@@ -179,6 +181,27 @@
         <tags>
             
             <tag> canvas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2018/04/15/hello-world/"/>
+      <url>/2018/04/15/hello-world/</url>
+      <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code class="bash">$ hexo new &quot;My New Post&quot;</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="bash">$ hexo deploy</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      <categories>
+          
+          <category> hello word </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hello word </tag>
             
         </tags>
       
@@ -216,13 +239,6 @@
     </entry>
     
     <entry>
-      <title>友链</title>
-      <link href="/links/index.html"/>
-      <url>/links/index.html</url>
-      <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
       <title>tags</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
@@ -233,6 +249,13 @@
       <title>timeline</title>
       <link href="/timeline/index.html"/>
       <url>/timeline/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>友链</title>
+      <link href="/links/index.html"/>
+      <url>/links/index.html</url>
       <content type="html"><![CDATA[]]></content>
     </entry>
     

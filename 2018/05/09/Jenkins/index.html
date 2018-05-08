@@ -47,7 +47,7 @@
     
     <title>
         
-            归档: 2018/5 | 
+            windows下搭建部署前端自动化测试环境jenkins | 
         
         w4ctech
     </title>
@@ -58,7 +58,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="w4ctech-风起于青萍之末，浪成于微澜之间。">
-    <meta name="keywords" content="w4ctech-风起于青萍之末，浪成于微澜之间。">
+    <meta name="keywords" content="w4ctech-风起于青萍之末，浪成于微澜之间。,Jenkins,自动化测试">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -219,7 +219,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="w4ctech">
-    <meta name="msapplication-starturl" content="https://w4ctech.coding.me/archives/2018/05/">
+    <meta name="msapplication-starturl" content="https://w4ctech.coding.me/2018/05/09/Jenkins/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="w4ctech">
@@ -238,13 +238,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://w4ctech.coding.me/archives/2018/05/">
+    <meta property="og:url" content="https://w4ctech.coding.me/2018/05/09/Jenkins/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="归档: 2018/5 | w4ctech">
+    <meta property="og:title" content="windows下搭建部署前端自动化测试环境jenkins | w4ctech">
     <meta property="og:image" content="/img/favicon.jpg">
     <meta property="og:description" content="w4ctech-风起于青萍之末，浪成于微澜之间。">
-    
+    <meta property="og:article:tag" content="Jenkins"> <meta property="og:article:tag" content="自动化测试"> 
 
+    
+        <meta property="article:published_time" content="Wed May 09 2018 00:00:00 GMT+0800">
+        <meta property="article:modified_time" content="Tue May 08 2018 09:25:25 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -252,13 +255,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://w4ctech.coding.me/archives/2018/05/index.html" />
+        <link rel="canonical" href="https://w4ctech.coding.me/2018/05/09/Jenkins/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://w4ctech.coding.me/2018/05/09/Jenkins/index.html",
+    "headline": "windows下搭建部署前端自动化测试环境jenkins",
+    "datePublished": "Wed May 09 2018 00:00:00 GMT+0800",
+    "dateModified": "Tue May 08 2018 09:25:25 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "w4ctech",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.jpg"
+        },
+        "description": "风起于青萍之末，浪成于微澜之间。"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "w4ctech",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.jpg"
+        }
+    },
+    "keywords": ",Jenkins,自动化测试w4ctech-风起于青萍之末，浪成于微澜之间。",
+    "description": "w4ctech-风起于青萍之末，浪成于微澜之间。",
+}
+</script>
 
 
     
@@ -313,162 +346,254 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
-        
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#环境说明"><span class="post-toc-number">1.</span> <span class="post-toc-text">环境说明</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#tomcat服务器"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">tomcat服务器</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#java-jdk"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">java jdk</span></a></li></ol></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#搭建"><span class="post-toc-number">2.</span> <span class="post-toc-text">搭建</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#1-下载windows版本的jenkins"><span class="post-toc-number">2.1.</span> <span class="post-toc-text">1.下载windows版本的jenkins</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#2-将安装后生成的jenkins-war文件放到tomcat的webapps目录下"><span class="post-toc-number">2.2.</span> <span class="post-toc-text">2.将安装后生成的jenkins.war文件放到tomcat的webapps目录下</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#3-访问-localhost-8080-jenkins"><span class="post-toc-number">2.3.</span> <span class="post-toc-text">3.访问 localhost:8080/jenkins</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#4-按照提示进行安装"><span class="post-toc-number">2.4.</span> <span class="post-toc-text">4.按照提示进行安装:</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#1-默认密码位于安装目录-secrets-initialAdminPassword该文件中"><span class="post-toc-number">2.4.1.</span> <span class="post-toc-text">1.默认密码位于安装目录\secrets\initialAdminPassword该文件中</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#2-安装插件选择左边默认的"><span class="post-toc-number">2.4.2.</span> <span class="post-toc-text">2.安装插件选择左边默认的</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#3-插件安装后进入账户配置页面"><span class="post-toc-number">2.4.3.</span> <span class="post-toc-text">3.插件安装后进入账户配置页面</span></a></li></ol></li></ol></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 118 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/05/09/Jenkins/">windows下搭建部署前端自动化测试环境jenkins</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Jenkins 是一款业界流行的开源持续集成工具，广泛用于项目开发，具有自动化构建、测试和部署等功能。
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/05/09/Jenkins/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="w4ctech's avatar">
-            </div>
-            <div>
-                <strong>w4ctech</strong>
-                <span>5月 09, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/web/">web</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
-
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/05/08/activation-windows/">最新激活windows方法</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/05/08/activation-windows/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="w4ctech's avatar">
-            </div>
-            <div>
-                <strong>w4ctech</strong>
-                <span>5月 08, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/ohter/">ohter</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 118 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                windows下搭建部署前端自动化测试环境jenkins
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>w4ctech</strong>
+        <span>5月 09, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/Jenkins/">Jenkins</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/自动化测试/">自动化测试</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=windows下搭建部署前端自动化测试环境jenkins&url=https://w4ctech.coding.me/2018/05/09/Jenkins/index.html&pic=https://w4ctech.coding.me/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://w4ctech.coding.me/2018/05/09/Jenkins/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://w4ctech.coding.me/2018/05/09/Jenkins/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=w4ctech&title=windows下搭建部署前端自动化测试环境jenkins&summary=w4ctech-风起于青萍之末，浪成于微澜之间。&pics=https://w4ctech.coding.me/img/favicon.jpg&url=https://w4ctech.coding.me/2018/05/09/Jenkins/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
     
 </div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>Jenkins 是一款业界流行的开源持续集成工具，广泛用于项目开发，具有自动化构建、测试和部署等功能。</p>
+<h4 id="环境说明"><a href="#环境说明" class="headerlink" title="环境说明"></a>环境说明</h4><h5 id="tomcat服务器"><a href="#tomcat服务器" class="headerlink" title="tomcat服务器"></a>tomcat服务器</h5><h5 id="java-jdk"><a href="#java-jdk" class="headerlink" title="java jdk"></a>java jdk</h5><h4 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h4><h5 id="1-下载windows版本的jenkins"><a href="#1-下载windows版本的jenkins" class="headerlink" title="1.下载windows版本的jenkins"></a>1.<a href="https://jenkins.io/download/thank-you-downloading-windows-installer-stable" title="下载windows版本的jenkins" target="_blank" rel="noopener">下载windows版本的jenkins</a></h5><h5 id="2-将安装后生成的jenkins-war文件放到tomcat的webapps目录下"><a href="#2-将安装后生成的jenkins-war文件放到tomcat的webapps目录下" class="headerlink" title="2.将安装后生成的jenkins.war文件放到tomcat的webapps目录下"></a>2.将安装后生成的<code>jenkins.war</code>文件放到tomcat的webapps目录下</h5><h5 id="3-访问-localhost-8080-jenkins"><a href="#3-访问-localhost-8080-jenkins" class="headerlink" title="3.访问 localhost:8080/jenkins"></a>3.访问 <code>localhost:8080/jenkins</code></h5><h5 id="4-按照提示进行安装"><a href="#4-按照提示进行安装" class="headerlink" title="4.按照提示进行安装:"></a>4.按照提示进行安装:</h5><h6 id="1-默认密码位于安装目录-secrets-initialAdminPassword该文件中"><a href="#1-默认密码位于安装目录-secrets-initialAdminPassword该文件中" class="headerlink" title="1.默认密码位于安装目录\secrets\initialAdminPassword该文件中"></a>1.默认密码位于<code>安装目录\secrets\initialAdminPassword</code>该文件中</h6><h6 id="2-安装插件选择左边默认的"><a href="#2-安装插件选择左边默认的" class="headerlink" title="2.安装插件选择左边默认的"></a>2.安装插件选择左边默认的</h6><h6 id="3-插件安装后进入账户配置页面"><a href="#3-插件安装后进入账户配置页面" class="headerlink" title="3.插件安装后进入账户配置页面"></a>3.插件安装后进入账户配置页面</h6><p><a href="jenkins is ready"><img src="https://s1.ax2x.com/2018/05/08/f3eYl.png" alt="jenkins is ready"></a><br>当页面显示<code>jenkins is ready</code>即安装成功</p>
+
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <div id="comment" style='padding:10px;' class="vcomment"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    var GUEST_INFO = ['nick','mail','link'];
+    var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+        return GUEST_INFO.indexOf(item) > -1
+    });
+    var notify = 'true' == true;
+    var verify = 'true' == true;
+    new Valine({
+        el: '.vcomment',
+        notify: notify,
+        verify: verify,
+        appId: "EAayCd8ouHDM5Iqms3hKlGsx-gzGzoHsz",
+        appKey: "S1MMPO5zkL4fuPYHuUWaud7O",
+        placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!",
+        pageSize:'10',
+        avatar:'identicon',
+        lang:'zh-cn'
+    });
+</script>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/05/08/activation-windows/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
