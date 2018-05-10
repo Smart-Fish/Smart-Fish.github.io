@@ -5,9 +5,9 @@
   <subtitle>w4ctech</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://w4ctech.coding.me/"/>
+  <link href="https://w3ctech.coding.me/"/>
   <updated>2018-05-10T04:22:31.548Z</updated>
-  <id>https://w4ctech.coding.me/</id>
+  <id>https://w3ctech.coding.me/</id>
   
   <author>
     <name>w4ctech</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>windows下搭建部署前端自动化测试环境jenkins</title>
-    <link href="https://w4ctech.coding.me/2018/05/09/Jenkins/"/>
-    <id>https://w4ctech.coding.me/2018/05/09/Jenkins/</id>
+    <link href="https://w3ctech.coding.me/2018/05/09/Jenkins/"/>
+    <id>https://w3ctech.coding.me/2018/05/09/Jenkins/</id>
     <published>2018-05-08T16:00:00.000Z</published>
     <updated>2018-05-10T04:22:31.548Z</updated>
     
@@ -35,19 +35,19 @@
     
     </summary>
     
-      <category term="web" scheme="https://w4ctech.coding.me/categories/web/"/>
+      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
     
     
-      <category term="Jenkins" scheme="https://w4ctech.coding.me/tags/Jenkins/"/>
+      <category term="Jenkins" scheme="https://w3ctech.coding.me/tags/Jenkins/"/>
     
-      <category term="自动化测试" scheme="https://w4ctech.coding.me/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+      <category term="自动化测试" scheme="https://w3ctech.coding.me/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>最新激活windows方法</title>
-    <link href="https://w4ctech.coding.me/2018/05/08/activation-windows/"/>
-    <id>https://w4ctech.coding.me/2018/05/08/activation-windows/</id>
+    <link href="https://w3ctech.coding.me/2018/05/08/activation-windows/"/>
+    <id>https://w3ctech.coding.me/2018/05/08/activation-windows/</id>
     <published>2018-05-07T16:00:00.000Z</published>
     <updated>2018-05-07T10:28:35.570Z</updated>
     
@@ -62,17 +62,17 @@
     
     </summary>
     
-      <category term="ohter" scheme="https://w4ctech.coding.me/categories/ohter/"/>
+      <category term="ohter" scheme="https://w3ctech.coding.me/categories/ohter/"/>
     
     
-      <category term="windows" scheme="https://w4ctech.coding.me/tags/windows/"/>
+      <category term="windows" scheme="https://w3ctech.coding.me/tags/windows/"/>
     
   </entry>
   
   <entry>
     <title>vue Notes-vue-router</title>
-    <link href="https://w4ctech.coding.me/2018/04/28/vue-router/"/>
-    <id>https://w4ctech.coding.me/2018/04/28/vue-router/</id>
+    <link href="https://w3ctech.coding.me/2018/04/28/vue-router/"/>
+    <id>https://w3ctech.coding.me/2018/04/28/vue-router/</id>
     <published>2018-04-27T16:00:00.000Z</published>
     <updated>2018-05-07T12:12:20.130Z</updated>
     
@@ -88,19 +88,19 @@
     
     </summary>
     
-      <category term="web" scheme="https://w4ctech.coding.me/categories/web/"/>
+      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
     
     
-      <category term="vue" scheme="https://w4ctech.coding.me/tags/vue/"/>
+      <category term="vue" scheme="https://w3ctech.coding.me/tags/vue/"/>
     
-      <category term="vue-router" scheme="https://w4ctech.coding.me/tags/vue-router/"/>
+      <category term="vue-router" scheme="https://w3ctech.coding.me/tags/vue-router/"/>
     
   </entry>
   
   <entry>
     <title>vue学习笔记-vue的生命周期</title>
-    <link href="https://w4ctech.coding.me/2018/04/26/vue-life-cycle/"/>
-    <id>https://w4ctech.coding.me/2018/04/26/vue-life-cycle/</id>
+    <link href="https://w3ctech.coding.me/2018/04/26/vue-life-cycle/"/>
+    <id>https://w3ctech.coding.me/2018/04/26/vue-life-cycle/</id>
     <published>2018-04-25T16:00:00.000Z</published>
     <updated>2018-04-28T16:32:05.719Z</updated>
     
@@ -117,19 +117,19 @@
     
     </summary>
     
-      <category term="web" scheme="https://w4ctech.coding.me/categories/web/"/>
+      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
     
     
-      <category term="vue" scheme="https://w4ctech.coding.me/tags/vue/"/>
+      <category term="vue" scheme="https://w3ctech.coding.me/tags/vue/"/>
     
-      <category term="vue生命周期" scheme="https://w4ctech.coding.me/tags/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
+      <category term="vue生命周期" scheme="https://w3ctech.coding.me/tags/vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F/"/>
     
   </entry>
   
   <entry>
     <title>vue学习笔记-vue组件</title>
-    <link href="https://w4ctech.coding.me/2018/04/24/vue-package/"/>
-    <id>https://w4ctech.coding.me/2018/04/24/vue-package/</id>
+    <link href="https://w3ctech.coding.me/2018/04/24/vue-package/"/>
+    <id>https://w3ctech.coding.me/2018/04/24/vue-package/</id>
     <published>2018-04-23T16:00:00.000Z</published>
     <updated>2018-04-25T10:54:42.894Z</updated>
     
@@ -144,19 +144,19 @@
     
     </summary>
     
-      <category term="web" scheme="https://w4ctech.coding.me/categories/web/"/>
+      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
     
     
-      <category term="vue" scheme="https://w4ctech.coding.me/tags/vue/"/>
+      <category term="vue" scheme="https://w3ctech.coding.me/tags/vue/"/>
     
-      <category term="vue组件" scheme="https://w4ctech.coding.me/tags/vue%E7%BB%84%E4%BB%B6/"/>
+      <category term="vue组件" scheme="https://w3ctech.coding.me/tags/vue%E7%BB%84%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>vue学习笔记-vue指令、vue条件语句</title>
-    <link href="https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/"/>
-    <id>https://w4ctech.coding.me/2018/04/23/vue-notes-grammar/</id>
+    <link href="https://w3ctech.coding.me/2018/04/23/vue-notes-grammar/"/>
+    <id>https://w3ctech.coding.me/2018/04/23/vue-notes-grammar/</id>
     <published>2018-04-22T16:00:00.000Z</published>
     <updated>2018-04-25T10:54:27.680Z</updated>
     
@@ -171,21 +171,21 @@
     
     </summary>
     
-      <category term="web" scheme="https://w4ctech.coding.me/categories/web/"/>
+      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
     
     
-      <category term="vue" scheme="https://w4ctech.coding.me/tags/vue/"/>
+      <category term="vue" scheme="https://w3ctech.coding.me/tags/vue/"/>
     
-      <category term="vue指令" scheme="https://w4ctech.coding.me/tags/vue%E6%8C%87%E4%BB%A4/"/>
+      <category term="vue指令" scheme="https://w3ctech.coding.me/tags/vue%E6%8C%87%E4%BB%A4/"/>
     
-      <category term="vue条件语句" scheme="https://w4ctech.coding.me/tags/vue%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5/"/>
+      <category term="vue条件语句" scheme="https://w3ctech.coding.me/tags/vue%E6%9D%A1%E4%BB%B6%E8%AF%AD%E5%8F%A5/"/>
     
   </entry>
   
   <entry>
     <title>总结js循环遍历</title>
-    <link href="https://w4ctech.coding.me/2018/04/18/js-loop-traversal/"/>
-    <id>https://w4ctech.coding.me/2018/04/18/js-loop-traversal/</id>
+    <link href="https://w3ctech.coding.me/2018/04/18/js-loop-traversal/"/>
+    <id>https://w3ctech.coding.me/2018/04/18/js-loop-traversal/</id>
     <published>2018-04-17T16:00:00.000Z</published>
     <updated>2018-04-24T23:03:42.048Z</updated>
     
@@ -201,21 +201,21 @@
     
     </summary>
     
-      <category term="web" scheme="https://w4ctech.coding.me/categories/web/"/>
+      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
     
     
-      <category term="js数组" scheme="https://w4ctech.coding.me/tags/js%E6%95%B0%E7%BB%84/"/>
+      <category term="js数组" scheme="https://w3ctech.coding.me/tags/js%E6%95%B0%E7%BB%84/"/>
     
-      <category term="js对象" scheme="https://w4ctech.coding.me/tags/js%E5%AF%B9%E8%B1%A1/"/>
+      <category term="js对象" scheme="https://w3ctech.coding.me/tags/js%E5%AF%B9%E8%B1%A1/"/>
     
-      <category term="js循环" scheme="https://w4ctech.coding.me/tags/js%E5%BE%AA%E7%8E%AF/"/>
+      <category term="js循环" scheme="https://w3ctech.coding.me/tags/js%E5%BE%AA%E7%8E%AF/"/>
     
   </entry>
   
   <entry>
     <title>Canvas——保存和恢复绘图状态</title>
-    <link href="https://w4ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/"/>
-    <id>https://w4ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/</id>
+    <link href="https://w3ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/"/>
+    <id>https://w3ctech.coding.me/2018/04/15/canvas-save-restore-drawing-status/</id>
     <published>2018-04-14T16:00:00.000Z</published>
     <updated>2018-04-15T15:01:58.679Z</updated>
     
@@ -231,17 +231,17 @@
     
     </summary>
     
-      <category term="web" scheme="https://w4ctech.coding.me/categories/web/"/>
+      <category term="web" scheme="https://w3ctech.coding.me/categories/web/"/>
     
     
-      <category term="canvas" scheme="https://w4ctech.coding.me/tags/canvas/"/>
+      <category term="canvas" scheme="https://w3ctech.coding.me/tags/canvas/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://w4ctech.coding.me/2018/04/15/hello-world/"/>
-    <id>https://w4ctech.coding.me/2018/04/15/hello-world/</id>
+    <link href="https://w3ctech.coding.me/2018/04/15/hello-world/"/>
+    <id>https://w3ctech.coding.me/2018/04/15/hello-world/</id>
     <published>2018-04-14T16:00:00.000Z</published>
     <updated>2018-04-18T22:51:17.120Z</updated>
     
@@ -256,10 +256,10 @@
     
     </summary>
     
-      <category term="hello word" scheme="https://w4ctech.coding.me/categories/hello-word/"/>
+      <category term="hello word" scheme="https://w3ctech.coding.me/categories/hello-word/"/>
     
     
-      <category term="hello word" scheme="https://w4ctech.coding.me/tags/hello-word/"/>
+      <category term="hello word" scheme="https://w3ctech.coding.me/tags/hello-word/"/>
     
   </entry>
   
