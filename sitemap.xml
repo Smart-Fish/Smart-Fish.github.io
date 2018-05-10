@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://w3ctech.coding.me/2018/04/18/js-loop-traversal/</loc>
+    
+    <lastmod>2018-05-10T13:30:20.784Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://w3ctech.coding.me/2018/04/26/vue-life-cycle/</loc>
+    
+    <lastmod>2018-05-10T13:28:26.805Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://w3ctech.coding.me/2018/04/23/vue-notes-grammar/</loc>
+    
+    <lastmod>2018-05-10T13:28:21.010Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://w3ctech.coding.me/2018/04/24/vue-package/</loc>
+    
+    <lastmod>2018-05-10T13:28:15.947Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://w3ctech.coding.me/2018/05/09/Jenkins/</loc>
     
     <lastmod>2018-05-10T04:22:31.548Z</lastmod>
@@ -23,37 +51,9 @@
   </url>
   
   <url>
-    <loc>https://w3ctech.coding.me/2018/04/26/vue-life-cycle/</loc>
-    
-    <lastmod>2018-04-28T16:32:05.719Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://w3ctech.coding.me/vue-life-cycle.html</loc>
     
     <lastmod>2018-04-28T16:28:43.134Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://w3ctech.coding.me/2018/04/24/vue-package/</loc>
-    
-    <lastmod>2018-04-25T10:54:42.894Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://w3ctech.coding.me/2018/04/23/vue-notes-grammar/</loc>
-    
-    <lastmod>2018-04-25T10:54:27.680Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://w3ctech.coding.me/2018/04/18/js-loop-traversal/</loc>
-    
-    <lastmod>2018-04-24T23:03:42.048Z</lastmod>
     
   </url>
   
