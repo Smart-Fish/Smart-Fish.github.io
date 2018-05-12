@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://w3ctech.coding.me/2018/04/23/vue-notes-grammar/</loc>
+    
+    <lastmod>2018-05-12T00:14:49.984Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://w3ctech.coding.me/2018/04/28/vue-router/</loc>
     
     <lastmod>2018-05-10T13:36:47.501Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://w3ctech.coding.me/2018/04/26/vue-life-cycle/</loc>
     
     <lastmod>2018-05-10T13:28:26.805Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://w3ctech.coding.me/2018/04/23/vue-notes-grammar/</loc>
-    
-    <lastmod>2018-05-10T13:28:21.010Z</lastmod>
     
   </url>
   
