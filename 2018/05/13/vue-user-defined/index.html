@@ -47,7 +47,7 @@
     
     <title>
         
-            标签: Jenkins | 
+            vue Notes-vue自定义指令 | 
         
         w4ctech
     </title>
@@ -58,7 +58,7 @@
 
     <meta name="format-detection" content="telephone=no"/>
     <meta name="description" itemprop="description" content="w4ctech-风起于青萍之末，浪成于微澜之间。">
-    <meta name="keywords" content="w4ctech-风起于青萍之末，浪成于微澜之间。">
+    <meta name="keywords" content="w4ctech-风起于青萍之末，浪成于微澜之间。,vue,vue指令,vue自定义指令">
     <meta name="theme-color" content="#0097A7">
 
     <!-- Disable Fucking Bloody Baidu Tranformation -->
@@ -219,7 +219,7 @@
     <!-- WebAPP Icons -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="w4ctech">
-    <meta name="msapplication-starturl" content="https://w3ctech.coding.me/tags/Jenkins/">
+    <meta name="msapplication-starturl" content="https://w3ctech.coding.me/2018/05/13/vue-user-defined/">
     <meta name="msapplication-navbutton-color" content="#0097A7">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-title" content="w4ctech">
@@ -238,13 +238,16 @@
     
 
     <!-- The Open Graph protocol -->
-    <meta property="og:url" content="https://w3ctech.coding.me/tags/Jenkins/">
+    <meta property="og:url" content="https://w3ctech.coding.me/2018/05/13/vue-user-defined/">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="标签: Jenkins | w4ctech">
+    <meta property="og:title" content="vue Notes-vue自定义指令 | w4ctech">
     <meta property="og:image" content="/img/favicon.jpg">
     <meta property="og:description" content="w4ctech-风起于青萍之末，浪成于微澜之间。">
-    
+    <meta property="og:article:tag" content="vue"> <meta property="og:article:tag" content="vue指令"> <meta property="og:article:tag" content="vue自定义指令"> 
 
+    
+        <meta property="article:published_time" content="Sun May 13 2018 00:00:00 GMT+0800">
+        <meta property="article:modified_time" content="Sun May 13 2018 23:49:53 GMT+0800">
     
 
     <!-- The Twitter Card protocol -->
@@ -252,13 +255,43 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="https://w3ctech.coding.me/tags/Jenkins/index.html" />
+        <link rel="canonical" href="https://w3ctech.coding.me/2018/05/13/vue-user-defined/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "mainEntityOfPage": "https://w3ctech.coding.me/2018/05/13/vue-user-defined/index.html",
+    "headline": "vue Notes-vue自定义指令",
+    "datePublished": "Sun May 13 2018 00:00:00 GMT+0800",
+    "dateModified": "Sun May 13 2018 23:49:53 GMT+0800",
+    "author": {
+        "@type": "Person",
+        "name": "w4ctech",
+        "image": {
+            "@type": "ImageObject",
+            "url": "/img/avatar.jpg"
+        },
+        "description": "风起于青萍之末，浪成于微澜之间。"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "w4ctech",
+        "logo": {
+            "@type":"ImageObject",
+            "url": "/img/favicon.jpg"
+        }
+    },
+    "keywords": ",vue,vue指令,vue自定义指令w4ctech-风起于青萍之末，浪成于微澜之间。",
+    "description": "w4ctech-风起于青萍之末，浪成于微澜之间。",
+}
+</script>
 
 
     
@@ -313,101 +346,287 @@
                         </button>
                     
 
-                    <!-- Index Module -->
-<div class="material-index mdl-grid">
-    
-    <div class="locate-thumbnail-symbol"></div>
+                    <!-- Post TOC -->
 
-    <!-- Pin on top -->
     
-        
+    <!-- Back Button -->
+    <!--
+    <div class="material-back" id="backhome-div" tabindex="0">
+        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
+           href="#" onclick="window.history.back();return false;"
+           target="_self"
+           role="button"
+           data-upgraded=",MaterialButton,MaterialRipple">
+            <i class="material-icons" role="presentation">arrow_back</i>
+            <span class="mdl-button__ripple-container">
+                <span class="mdl-ripple"></span>
+            </span>
+        </a>
+    </div>
+    -->
+
+
+    <!-- Left aligned menu below button -->
+    
+    
+    <button id="post-toc-trigger-btn"
+        class="mdl-button mdl-js-button mdl-button--icon">
+        <i class="material-icons">format_list_numbered</i>
+    </button>
+
+    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#一-注册自定义指令"><span class="post-toc-number">1.</span> <span class="post-toc-text">一.注册自定义指令</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#1-注册全局自定义指令-指令可以在全局使用"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">1.注册全局自定义指令(指令可以在全局使用)</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#1-Vue-dircetive"><span class="post-toc-number">1.1.1.</span> <span class="post-toc-text">1.Vue.dircetive</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#1-钩子函数参数el-binding-vnode-oldVnode"><span class="post-toc-number">1.1.2.</span> <span class="post-toc-text">1.钩子函数参数el binding vnode oldVnode</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#1-el-指令所绑定的元素，可以用来直接操作DOM。"><span class="post-toc-number">1.1.2.1.</span> <span class="post-toc-text">1.el 指令所绑定的元素，可以用来直接操作DOM。</span></a></li><li class="post-toc-item post-toc-level-5"><a class="post-toc-link" href="#2-binding-一个对象，包含指令的很多信息。"><span class="post-toc-number">1.1.2.2.</span> <span class="post-toc-text">2.binding:  一个对象，包含指令的很多信息。</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#1-binding-一个对象，包含指令的很多信息。"><span class="post-toc-number">1.1.2.2.1.</span> <span class="post-toc-text">1.binding:  一个对象，包含指令的很多信息。</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#2-binding-name-指令名，不包括-v-前缀。"><span class="post-toc-number">1.1.2.2.2.</span> <span class="post-toc-text">2.binding.name: 指令名，不包括 v- 前缀。</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#3-binding-value-指令的绑定值，-例如：-v-mycolor-”color”，value-的值是-color的值-为red"><span class="post-toc-number">1.1.2.2.3.</span> <span class="post-toc-text">3.binding.value: 指令的绑定值， 例如： v-mycolor=”color”，value 的值是 color的值 为red</span></a></li><li class="post-toc-item post-toc-level-6"><a class="post-toc-link" href="#4-binding-expression-绑定值的字符串形式。-例如-v-mycolor-”color”-，-expression-的值是-“color”。"><span class="post-toc-number">1.1.2.2.4.</span> <span class="post-toc-text">4.binding.expression: 绑定值的字符串形式。 例如 v-mycolor=”color” ， expression 的值是 “color”。</span></a></li></ol></li></ol></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2-注册局部自定义指令-指令只能在组件内使用"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">2.注册局部自定义指令(指令只能在组件内使用)</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#自定义指令的生命周期"><span class="post-toc-number">1.2.1.</span> <span class="post-toc-text">自定义指令的生命周期</span></a></li></ol></li></ol></li></ol>
+    </ul>
     
 
-    <!-- Normal Post -->
-    
-        
-            
-                <!-- Paradox Thumbnail -->
-                <div class="post_entry-module mdl-card mdl-shadow--2dp mdl-cell mdl-cell--12-col fade out">
-    <!-- Post Thumbnail -->
+
+
+
+<!-- Layouts -->
+
+    <!-- Post Module -->
+    <div class="material-post_container">
+
+        <div class="material-post mdl-grid">
+            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+
+                <!-- Post Header(Thumbnail & Title) -->
+                
+    <!-- Paradox Post Header -->
     
         
             <!-- Random Thumbnail -->
             <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-        
-    
+            <script type="text/ls-javascript" id="post-thumbnail-script">
+    var randomNum = Math.floor(Math.random() * 118 + 1);
 
-        <!-- Post Title -->
-        <p class="article-headline-p"><a href="/2018/05/09/Jenkins/">windows下搭建部署前端自动化测试环境jenkins</a></p>
-    </div>
-
-    <!-- Post Excerpt -->
-    <div class="mdl-color-text--grey-600 mdl-card__supporting-text post_entry-content">
-        
-            Jenkins 是一款业界流行的开源持续集成工具，广泛用于项目开发，具有自动化构建、测试和部署等功能。
-
-        
-        &nbsp;&nbsp;&nbsp;
-        <span>
-            <a href="/2018/05/09/Jenkins/" target="_self">阅读全文</a>
-        </span>
-    </div>
-    <!-- Post_entry Info-->
-    <div id="post_entry-info">
-        <div id="post_entry-left-info" class="mdl-card__supporting-text meta mdl-color-text--grey-600 ">
-            <!-- Author Avatar -->
-            <div id="author-avatar">
-                <img src="/img/avatar.jpg" width="44px" height="44px" alt="w4ctech's avatar">
-            </div>
-            <div>
-                <strong>w4ctech</strong>
-                <span>5月 09, 2018</span>
-            </div>
-        </div>
-        <div id="post_entry-right-info">
-          
-              <!-- Category -->
-              <span class="post_entry-category">
-                  <a class="post_category-link" href="/categories/web/">web</a>
-              </span>
-            
-
-            
-
-            
-
-            <!-- Post Views -->
-            <span class="post_entry-views">
-            </span>
-        </div>
-    </div>
-</div>
-
-            
-            
-        
-    
-
-    
-
-    
-        <script type="text/ls-javascript" id="thumbnail-script">
-    var randomNum;
-
-    var locatePost = $('.locate-thumbnail-symbol').next();
-    for(var i = 0; i < 10; i++) {
-        randomNum = Math.floor(Math.random() * 118 + 1);
-
-        locatePost.children('.post_thumbnail-random').attr('id', 'random_thumbnail-'+randomNum);
-        locatePost.children('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
+    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
     $('.post_thumbnail-random').addClass('lazy');
-
-        locatePost = locatePost.next();
-    }
 </script>
 
+        
+    
+            <p class="article-headline-p">
+                vue Notes-vue自定义指令
+            </p>
+        </div>
+
+
+
+
+
+                
+                    <!-- Paradox Post Info -->
+                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+
+    <!-- Author Avatar -->
+    <div id="author-avatar">
+        <img src="/img/avatar.jpg" width="44px" height="44px" alt="Author Avatar"/>
+    </div>
+    <!-- Author Name & Date -->
+    <div>
+        <strong>w4ctech</strong>
+        <span>5月 13, 2018</span>
+    </div>
+
+    <div class="section-spacer"></div>
+
+    <!-- Favorite -->
+    <!--
+        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
+            <i class="material-icons" role="presentation">favorite</i>
+            <span class="visuallyhidden">favorites</span>
+        </button>
+    -->
+
+    <!-- Qrcode -->
+    
+
+    <!-- Tags (bookmark) -->
+    
+    <button id="article-functions-viewtags-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+        <i class="material-icons" role="presentation">bookmark</i>
+        <span class="visuallyhidden">bookmark</span>
+    </button>
+    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
+        <li class="mdl-menu__item">
+        <a class="post_tag-link" href="/tags/vue/">vue</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/vue指令/">vue指令</a></li><li class="mdl-menu__item"><a class="post_tag-link" href="/tags/vue自定义指令/">vue自定义指令</a>
+    </ul>
+    
+
+    <!-- Share -->
+    
+        <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
+    <i class="material-icons" role="presentation">share</i>
+    <span class="visuallyhidden">share</span>
+</button>
+<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
+    
+
+    
+        
+            <!-- Busuanzi Views -->
+            <a class="post_share-link" href="#">
+                <li class="mdl-menu__item">
+                    <span id="busuanzi_container_page_pv">
+                        <span id="busuanzi_value_page_pv"></span>&nbsp;浏览量
+                    </span>
+                </li>
+            </a>
+        
+    
+
+    <!-- Share Weibo -->
+    
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=vue Notes-vue自定义指令&url=https://w3ctech.coding.me/2018/05/13/vue-user-defined/index.html&pic=https://w3ctech.coding.me/img/favicon.jpg&searchPic=false&style=simple" target="_blank">
+            <li class="mdl-menu__item">
+                分享到微博
+            </li>
+        </a>
+    
+
+    <!-- Share Twitter -->
+    
+
+    <!-- Share Facebook -->
+    
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://w3ctech.coding.me/2018/05/13/vue-user-defined/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Facebook
+            </li>
+        </a>
+    
+
+    <!-- Share Google+ -->
+    
+        <a class="post_share-link" href="https://plus.google.com/share?url=https://w3ctech.coding.me/2018/05/13/vue-user-defined/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 Google+
+            </li>
+        </a>
+    
+
+    <!-- Share LinkedIn -->
+    
+
+    <!-- Share QQ -->
+    
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=w4ctech&title=vue Notes-vue自定义指令&summary=w4ctech-风起于青萍之末，浪成于微澜之间。&pics=https://w3ctech.coding.me/img/favicon.jpg&url=https://w3ctech.coding.me/2018/05/13/vue-user-defined/index.html" target="_blank">
+            <li class="mdl-menu__item">
+                分享到 QQ
+            </li>
+        </a>
+    
+
+    <!-- Share Telegram -->
+    
+</ul>
+
     
 </div>
+
+                
+
+                <!-- Post Content -->
+                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
+    
+        <p>vue自定义指令指的是除了vue.js默认内置的指令外，自己定义的一些指令</p>
+<h2 id="一-注册自定义指令"><a href="#一-注册自定义指令" class="headerlink" title="一.注册自定义指令"></a>一.注册自定义指令</h2><h3 id="1-注册全局自定义指令-指令可以在全局使用"><a href="#1-注册全局自定义指令-指令可以在全局使用" class="headerlink" title="1.注册全局自定义指令(指令可以在全局使用)"></a>1.注册全局自定义指令(指令可以在全局使用)</h3><p>注册全局自定义指令需在实例化vue之前：<br>
+<iframe height="265" scrolling="no" title="vue 自定义指令全局组件" src="//codepen.io/w4ctech/embed/GdGvZW/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/GdGvZW/" target="_blank" rel="noopener">vue 自定义指令全局组件</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
+</iframe>
+<br>
+<iframe height="265" scrolling="no" title="vue.directive" src="//codepen.io/w4ctech/embed/vjrKgo/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/vjrKgo/" target="_blank" rel="noopener">vue.directive</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
+</iframe>
+<br>注册全局指令需先在html标签中定义指令<code>v-globa</code> ,<code>v-mycolor</code>;在js中使用Vue.directive绑定组件的名字和相关指令操作</p>
+<h4 id="1-Vue-dircetive"><a href="#1-Vue-dircetive" class="headerlink" title="1.Vue.dircetive"></a>1.Vue.dircetive</h4><p>Vue.dircetive中有两个参数，第一个参数是自定义指令名，第二个参数是是方法(匿名函数)。</p>
+<h4 id="1-钩子函数参数el-binding-vnode-oldVnode"><a href="#1-钩子函数参数el-binding-vnode-oldVnode" class="headerlink" title="1.钩子函数参数el binding vnode oldVnode"></a>1.钩子函数参数<code>el</code> <code>binding</code> <code>vnode</code> <code>oldVnode</code></h4><h5 id="1-el-指令所绑定的元素，可以用来直接操作DOM。"><a href="#1-el-指令所绑定的元素，可以用来直接操作DOM。" class="headerlink" title="1.el 指令所绑定的元素，可以用来直接操作DOM。"></a>1.el 指令所绑定的元素，可以用来直接操作DOM。</h5><h5 id="2-binding-一个对象，包含指令的很多信息。"><a href="#2-binding-一个对象，包含指令的很多信息。" class="headerlink" title="2.binding:  一个对象，包含指令的很多信息。"></a>2.binding:  一个对象，包含指令的很多信息。</h5><h6 id="1-binding-一个对象，包含指令的很多信息。"><a href="#1-binding-一个对象，包含指令的很多信息。" class="headerlink" title="1.binding:  一个对象，包含指令的很多信息。"></a>1.binding:  一个对象，包含指令的很多信息。</h6><h6 id="2-binding-name-指令名，不包括-v-前缀。"><a href="#2-binding-name-指令名，不包括-v-前缀。" class="headerlink" title="2.binding.name: 指令名，不包括 v- 前缀。"></a>2.binding.name: 指令名，不包括 v- 前缀。</h6><h6 id="3-binding-value-指令的绑定值，-例如：-v-mycolor-”color”，value-的值是-color的值-为red"><a href="#3-binding-value-指令的绑定值，-例如：-v-mycolor-”color”，value-的值是-color的值-为red" class="headerlink" title="3.binding.value: 指令的绑定值， 例如： v-mycolor=”color”，value 的值是 color的值 为red"></a>3.binding.value: 指令的绑定值， 例如： v-mycolor=”color”，value 的值是 color的值 为red</h6><h6 id="4-binding-expression-绑定值的字符串形式。-例如-v-mycolor-”color”-，-expression-的值是-“color”。"><a href="#4-binding-expression-绑定值的字符串形式。-例如-v-mycolor-”color”-，-expression-的值是-“color”。" class="headerlink" title="4.binding.expression: 绑定值的字符串形式。 例如 v-mycolor=”color” ， expression 的值是 “color”。"></a>4.binding.expression: 绑定值的字符串形式。 例如 v-mycolor=”color” ， expression 的值是 “color”。</h6>
+<iframe height="265" scrolling="no" title="vue.js自定义指令生命周期" src="//codepen.io/w4ctech/embed/KRegQJ/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/KRegQJ/" target="_blank" rel="noopener">vue.js自定义指令生命周期</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
+</iframe>	
+
+<h3 id="2-注册局部自定义指令-指令只能在组件内使用"><a href="#2-注册局部自定义指令-指令只能在组件内使用" class="headerlink" title="2.注册局部自定义指令(指令只能在组件内使用)"></a>2.注册局部自定义指令(指令只能在组件内使用)</h3>
+<iframe height="265" scrolling="no" title="vue注册局部自定义指令" src="//codepen.io/w4ctech/embed/bMKYbV/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/bMKYbV/" target="_blank" rel="noopener">vue注册局部自定义指令</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.
+</iframe>
+
+<h4 id="自定义指令的生命周期"><a href="#自定义指令的生命周期" class="headerlink" title="自定义指令的生命周期"></a>自定义指令的生命周期</h4><p>vue自定义指令有五个生命周期<code>bind</code> <code>inserted</code> <code>updae</code> <code>componentUpdated</code> <code>unbind</code></p>
+<pre><code>Vue.directive(&#39;my-directive&#39;, {
+    bind: function () { //只调用一次 指令第一次绑定到元素时调用,用该钩子函数可以定义一个绑定时执行一次的初始化
+        ...
+    },
+    inserted: function () { // 被绑定元素插入父节点时调用,当父节点存在时调用，不一定存在document中（插入完成时调用）
+        ...
+    },
+    update: function (newValue, oldValue) { //当被绑定元素的更新时调用，无论绑定的值是否变化，通过比较更新前后的绑定值，可以忽略模板上不必要的更新（更新时调用）
+        ...
+    },
+    componentUpdated: function () { // 被绑定元素所在模板完成一次更新周期时调用（更新完成时调用）
+        ...
+    },
+    unbind: function () { //指令与元素解绑时调用只调用一次 (解绑时调用）
+        ...
+    }
+})
+</code></pre>
+        
+    
+
+    
+</div>
+
+
+                
+
+                <!-- Post Comments -->
+                
+                    
+    <div id="comment" style='padding:10px;' class="vcomment"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    var GUEST_INFO = ['nick','mail','link'];
+    var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+        return GUEST_INFO.indexOf(item) > -1
+    });
+    var notify = 'true' == true;
+    var verify = 'true' == true;
+    new Valine({
+        el: '.vcomment',
+        notify: notify,
+        verify: verify,
+        appId: "EAayCd8ouHDM5Iqms3hKlGsx-gzGzoHsz",
+        appKey: "S1MMPO5zkL4fuPYHuUWaud7O",
+        placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!",
+        pageSize:'10',
+        avatar:'identicon',
+        lang:'zh-cn'
+    });
+</script>
+
+                
+            </div>
+
+            <!-- Post Prev & Next Nav -->
+            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
+    <!-- Prev Nav -->
+    
+
+    <!-- Section Spacer -->
+    <div class="section-spacer"></div>
+
+    <!-- Next Nav -->
+    
+        <a href="/2018/05/09/Jenkins/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
+    
+</nav>
+
+        </div>
+    </div>
+
 
 
                     
@@ -615,6 +834,14 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
+
+                    
+                        <!-- Footer Top Button -->
+                        <div id="back-to-top" class="toTop-wrap">
+    <a href="#top" class="toTop">
+        <i class="material-icons footer_top-i">expand_less</i>
+    </a>
+</div>
 
                     
 
