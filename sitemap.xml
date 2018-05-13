@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://w3ctech.coding.me/2018/04/24/vue-package/</loc>
+    
+    <lastmod>2018-05-13T16:36:10.443Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://w3ctech.coding.me/2018/05/13/vue-user-defined/</loc>
     
     <lastmod>2018-05-13T16:30:20.895Z</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://w3ctech.coding.me/2018/04/26/vue-life-cycle/</loc>
     
     <lastmod>2018-05-10T13:28:26.805Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://w3ctech.coding.me/2018/04/24/vue-package/</loc>
-    
-    <lastmod>2018-05-10T13:28:15.947Z</lastmod>
     
   </url>
   
