@@ -191,27 +191,6 @@
     </entry>
     
     <entry>
-      <title>Canvas——保存和恢复绘图状态</title>
-      <link href="/2018/04/15/canvas-save-restore-drawing-status/"/>
-      <url>/2018/04/15/canvas-save-restore-drawing-status/</url>
-      <content type="html"><![CDATA[<h3 id="画布绘图状态"><a href="#画布绘图状态" class="headerlink" title="画布绘图状态"></a>画布绘图状态</h3><p>描述某一时刻2D渲染上下文外观的整套属性，从简单的颜色值到复杂的变换矩阵及其他特性。</p><h3 id="描述画布绘图状态的全部属性"><a href="#描述画布绘图状态的全部属性" class="headerlink" title="描述画布绘图状态的全部属性"></a>描述画布绘图状态的全部属性</h3><p>变换矩阵、裁剪区域、globalAlpha、globalCompositeOperation、strokeStyle、fillStyle、lineWidth、lineCap、lineJoin、miterLimit、shadowOffsetX、shadowOffsetY、shadowBlur、shadowColor、font、textAlign 和 textBaseline.</p><h3 id="保存绘图状态——save"><a href="#保存绘图状态——save" class="headerlink" title="保存绘图状态——save()"></a>保存绘图状态——save()</h3><p>当你保存绘图状态时，2D渲染上下文会保存一个绘图状态栈，它是一组之前保存的状态，其中最近保存的状态位于顶部——就像一张纸。绘图状态的默认栈是空的，调用save方法，就会有一个新状态被添加到这个栈。多次调用save方法，就可以将多个绘图状态逐一保存到栈中，其中最早的状态在底部。（下面的例子调用了save()方法保存了fillStyle = “red”状态。）</p><h3 id="恢复绘图状态——restore"><a href="#恢复绘图状态——restore" class="headerlink" title="恢复绘图状态——restore()"></a>恢复绘图状态——restore()</h3><p>通过调用restore方法，你能够自动取出最后添加到栈中的绘图状态，并将它应用于2D渲染上下文，用所保存的状态覆盖全部现有的样式。（下面的例子在设置了fillStyle = “blue”之后又调用了restore()方法恢复了之前已有的fillStyle = “red”状态。）</p><iframe height="265" scrolling="no" title="保存和恢复多个绘图状态" src="//codepen.io/w4ctech/embed/zWVmYJ/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zWVmYJ/" target="_blank" rel="noopener">保存和恢复多个绘图状态</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><h3 id="保存和恢复多个绘图状态"><a href="#保存和恢复多个绘图状态" class="headerlink" title="保存和恢复多个绘图状态"></a>保存和恢复多个绘图状态</h3><p>理解新增的项（状态）被添加到栈的顶部，并且它们是从栈顶部取回的。即后进先出的机制，最近保存到栈的绘图状态将是后来第一个恢复的状态。（修改前面的例子，在fillStyle = “blue”之后保存绘图状态，然后调用两次restore()方法，依次恢复了blue和red状态。）</p><iframe height="265" scrolling="no" title="保存和恢复多个绘图状态" src="//codepen.io/w4ctech/embed/mxZzPe/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/mxZzPe/" target="_blank" rel="noopener">保存和恢复多个绘图状态</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe>]]></content>
-      
-      <categories>
-          
-          <category> web </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> canvas </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>Hello World</title>
       <link href="/2018/04/15/hello-world/"/>
       <url>/2018/04/15/hello-world/</url>
@@ -227,6 +206,27 @@
         <tags>
             
             <tag> hello word </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Canvas——保存和恢复绘图状态</title>
+      <link href="/2018/04/15/canvas-save-restore-drawing-status/"/>
+      <url>/2018/04/15/canvas-save-restore-drawing-status/</url>
+      <content type="html"><![CDATA[<h3 id="画布绘图状态"><a href="#画布绘图状态" class="headerlink" title="画布绘图状态"></a>画布绘图状态</h3><p>描述某一时刻2D渲染上下文外观的整套属性，从简单的颜色值到复杂的变换矩阵及其他特性。</p><h3 id="描述画布绘图状态的全部属性"><a href="#描述画布绘图状态的全部属性" class="headerlink" title="描述画布绘图状态的全部属性"></a>描述画布绘图状态的全部属性</h3><p>变换矩阵、裁剪区域、globalAlpha、globalCompositeOperation、strokeStyle、fillStyle、lineWidth、lineCap、lineJoin、miterLimit、shadowOffsetX、shadowOffsetY、shadowBlur、shadowColor、font、textAlign 和 textBaseline.</p><h3 id="保存绘图状态——save"><a href="#保存绘图状态——save" class="headerlink" title="保存绘图状态——save()"></a>保存绘图状态——save()</h3><p>当你保存绘图状态时，2D渲染上下文会保存一个绘图状态栈，它是一组之前保存的状态，其中最近保存的状态位于顶部——就像一张纸。绘图状态的默认栈是空的，调用save方法，就会有一个新状态被添加到这个栈。多次调用save方法，就可以将多个绘图状态逐一保存到栈中，其中最早的状态在底部。（下面的例子调用了save()方法保存了fillStyle = “red”状态。）</p><h3 id="恢复绘图状态——restore"><a href="#恢复绘图状态——restore" class="headerlink" title="恢复绘图状态——restore()"></a>恢复绘图状态——restore()</h3><p>通过调用restore方法，你能够自动取出最后添加到栈中的绘图状态，并将它应用于2D渲染上下文，用所保存的状态覆盖全部现有的样式。（下面的例子在设置了fillStyle = “blue”之后又调用了restore()方法恢复了之前已有的fillStyle = “red”状态。）</p><iframe height="265" scrolling="no" title="保存和恢复多个绘图状态" src="//codepen.io/w4ctech/embed/zWVmYJ/?height=265&theme-id=0&default-tab=html,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/zWVmYJ/" target="_blank" rel="noopener">保存和恢复多个绘图状态</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe><h3 id="保存和恢复多个绘图状态"><a href="#保存和恢复多个绘图状态" class="headerlink" title="保存和恢复多个绘图状态"></a>保存和恢复多个绘图状态</h3><p>理解新增的项（状态）被添加到栈的顶部，并且它们是从栈顶部取回的。即后进先出的机制，最近保存到栈的绘图状态将是后来第一个恢复的状态。（修改前面的例子，在fillStyle = “blue”之后保存绘图状态，然后调用两次restore()方法，依次恢复了blue和red状态。）</p><iframe height="265" scrolling="no" title="保存和恢复多个绘图状态" src="//codepen.io/w4ctech/embed/mxZzPe/?height=265&theme-id=0&default-tab=js,result&embed-version=2" frameborder="no" allowtransparency="true" allowfullscreen="true" style="width: 100%;">See the Pen <a href="https://codepen.io/w4ctech/pen/mxZzPe/" target="_blank" rel="noopener">保存和恢复多个绘图状态</a> by w4ctech (<a href="https://codepen.io/w4ctech" target="_blank" rel="noopener">@w4ctech</a>) on <a href="https://codepen.io" target="_blank" rel="noopener">CodePen</a>.</iframe>]]></content>
+      
+      <categories>
+          
+          <category> web </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> canvas </tag>
             
         </tags>
       
